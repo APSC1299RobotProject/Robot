@@ -1,53 +1,26 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"3052 C:\Program Files (x86)\Microchip\xc8\v1.35\include\pic18f4525.h
-[s S156 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S156 . CCP2IF TMR3IF HLVDIF BCLIF EEIF . CMIF OSCFIF ]
-"3062
-[s S157 :2 `uc 1 :1 `uc 1 ]
-[n S157 . . LVDIF ]
-"3051
-[u S155 `S156 1 `S157 1 ]
-[n S155 . . . ]
-"3067
-[v _PIR2bits `VS155 ~T0 @X0 0 e@4001 ]
-"1633
-[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
-"1854
-[v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
-"2075
-[v _TRISC `Vuc ~T0 @X0 0 e@3988 ]
-"2296
-[v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
-"2517
-[v _TRISE `Vuc ~T0 @X0 0 e@3990 ]
-"2987
-[s S153 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S153 . CCP2IE TMR3IE HLVDIE BCLIE EEIE . CMIE OSCFIE ]
-"2997
-[s S154 :2 `uc 1 :1 `uc 1 ]
-[n S154 . . LVDIE ]
-"2986
-[u S152 `S153 1 `S154 1 ]
-[n S152 . . . ]
-"3002
-[v _PIE2bits `VS152 ~T0 @X0 0 e@4000 ]
-"5910
-[s S321 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S321 . HLVDL HLVDEN IVRST . VDIRMAG ]
-"5917
-[s S322 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S322 . HLVDL0 HLVDL1 HLVDL2 HLVDL3 ]
-"5923
-[s S323 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S323 . LVDL0 LVDL1 LVDL2 LVDL3 LVDEN IRVST ]
-"5931
-[s S324 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S324 . LVV0 LVV1 LVV2 LVV3 . BGST ]
-"5909
-[u S320 `S321 1 `S322 1 `S323 1 `S324 1 ]
-[n S320 . . . . . ]
-"5940
-[v _HLVDCONbits `VS320 ~T0 @X0 0 e@4050 ]
+"6174 C:\Program Files (x86)\Microchip\xc8\v1.35\include\pic18f4525.h
+[s S331 :2 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S331 . SCS IOFS OSTS IRCF IDLEN ]
+"6181
+[s S332 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S332 . SCS0 SCS1 FLTS . IRCF0 IRCF1 IRCF2 ]
+"6173
+[u S330 `S331 1 `S332 1 ]
+[n S330 . . . ]
+"6191
+[v _OSCCONbits `VS330 ~T0 @X0 0 e@4051 ]
+"2686
+[s S138 :5 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S138 . TUN . PLLEN INTSRC ]
+"2692
+[s S139 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S139 . TUN0 TUN1 TUN2 TUN3 TUN4 ]
+"2685
+[u S137 `S138 1 `S139 1 ]
+[n S137 . . . ]
+"2700
+[v _OSCTUNEbits `VS137 ~T0 @X0 0 e@3995 ]
 [; ;htc.h: 26: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 28: extern double __fpnormalize(double);
 [; ;xc8debug.h: 14: extern void __builtin_software_breakpoint(void);
@@ -3694,66 +3667,349 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;pic18.h: 152: extern __nonreentrant void _delay(unsigned long);
 [; ;pic18.h: 154: extern __nonreentrant void _delaywdt(unsigned long);
 [; ;pic18.h: 156: extern __nonreentrant void _delay3(unsigned char);
-[; ;interrupts.h: 1: unsigned char lvd_flag_set(void);
-"8 interrupts.c
-[v _lvd_flag `uc ~T0 @X0 1 s ]
-[i _lvd_flag
--> -> 0 `i `uc
-]
-[; ;interrupts.c: 8: static unsigned char lvd_flag=0;
-[v F4028 `(v ~T0 @X0 1 tf ]
-"24
-[v _high_isr `IF4028 ~T0 @X0 1 e ]
-"25
+[; ;osc.h: 9: void set_osc_32MHz(void);
+[; ;osc.h: 10: void set_osc_16MHz(void);
+[; ;osc.h: 11: void set_osc_8MHz(void);
+[; ;osc.h: 12: void set_osc_4MHz(void);
+[; ;osc.h: 13: void set_osc_2MHz(void);
+[; ;osc.h: 14: void set_osc_1MHz(void);
+[; ;osc.h: 15: void set_osc_500kHz(void);
+[; ;osc.h: 16: void set_osc_250kHz(void);
+[; ;osc.h: 17: void set_osc_125kHz(void);
+[; ;osc.h: 18: void set_osc_31kHz(void);
+"18 Common/osc.c
+[v _set_osc_32MHz `(v ~T0 @X0 1 ef ]
 {
-[; ;interrupts.c: 24: void interrupt high_isr(void)
-[; ;interrupts.c: 25: {
-[e :U _high_isr ]
+[; ;osc.c: 18: void set_osc_32MHz(void){
+[e :U _set_osc_32MHz ]
 [f ]
-[; ;interrupts.c: 26: PIR2bits.HLVDIF = 0;
-"26
-[e = . . _PIR2bits 0 2 -> -> 0 `i `uc ]
-[; ;interrupts.c: 27: TRISA = 0xff;
+"19
+[v _i `i ~T0 @X0 1 a ]
+[; ;osc.c: 19: int i;
+[; ;osc.c: 21: OSCCONbits.IRCF2 = 1;
+"21
+[e = . . _OSCCONbits 1 6 -> -> 1 `i `uc ]
+[; ;osc.c: 22: OSCCONbits.IRCF1 = 1;
+"22
+[e = . . _OSCCONbits 1 5 -> -> 1 `i `uc ]
+[; ;osc.c: 23: OSCCONbits.IRCF0 = 1;
+"23
+[e = . . _OSCCONbits 1 4 -> -> 1 `i `uc ]
+[; ;osc.c: 25: OSCTUNEbits.PLLEN = 1;
+"25
+[e = . . _OSCTUNEbits 0 2 -> -> 1 `i `uc ]
+[; ;osc.c: 27: for(i=0;i<500;i++);
 "27
-[e = _TRISA -> -> 255 `i `uc ]
-[; ;interrupts.c: 28: TRISB = 0xff;
+{
+[e = _i -> 0 `i ]
+[e $ < _i -> 500 `i 395  ]
+[e $U 396  ]
+[e :U 395 ]
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 500 `i 395  ]
+[e :U 396 ]
+}
+[; ;osc.c: 28: }
 "28
-[e = _TRISB -> -> 255 `i `uc ]
-[; ;interrupts.c: 29: TRISC = 0xff;
-"29
-[e = _TRISC -> -> 255 `i `uc ]
-[; ;interrupts.c: 30: TRISD = 0xff;
-"30
-[e = _TRISD -> -> 255 `i `uc ]
-[; ;interrupts.c: 31: TRISE = 0x03;
-"31
-[e = _TRISE -> -> 3 `i `uc ]
-[; ;interrupts.c: 32: lvd_flag =1;
-"32
-[e = _lvd_flag -> -> 1 `i `uc ]
-[; ;interrupts.c: 36: PIE2bits.HLVDIE = 0;
-"36
-[e = . . _PIE2bits 0 2 -> -> 0 `i `uc ]
-[; ;interrupts.c: 40: HLVDCONbits.HLVDEN = 0;
-"40
-[e = . . _HLVDCONbits 0 1 -> -> 0 `i `uc ]
-[; ;interrupts.c: 41: }
-"41
 [e :UE 394 ]
 }
-"47
-[v _lvd_flag_set `(uc ~T0 @X0 1 ef ]
-"48
+"29
+[v _set_osc_16MHz `(v ~T0 @X0 1 ef ]
 {
-[; ;interrupts.c: 47: unsigned char lvd_flag_set(void)
-[; ;interrupts.c: 48: {
-[e :U _lvd_flag_set ]
+[; ;osc.c: 29: void set_osc_16MHz(void){
+[e :U _set_osc_16MHz ]
 [f ]
-[; ;interrupts.c: 49: return lvd_flag;
-"49
-[e ) _lvd_flag ]
-[e $UE 395  ]
-[; ;interrupts.c: 50: }
+"30
+[v _i `i ~T0 @X0 1 a ]
+[; ;osc.c: 30: int i;
+[; ;osc.c: 32: OSCCONbits.IRCF2 = 1;
+"32
+[e = . . _OSCCONbits 1 6 -> -> 1 `i `uc ]
+[; ;osc.c: 33: OSCCONbits.IRCF1 = 1;
+"33
+[e = . . _OSCCONbits 1 5 -> -> 1 `i `uc ]
+[; ;osc.c: 34: OSCCONbits.IRCF0 = 0;
+"34
+[e = . . _OSCCONbits 1 4 -> -> 0 `i `uc ]
+[; ;osc.c: 36: OSCTUNEbits.PLLEN = 1;
+"36
+[e = . . _OSCTUNEbits 0 2 -> -> 1 `i `uc ]
+[; ;osc.c: 38: for(i=0;i<500;i++);
+"38
+{
+[e = _i -> 0 `i ]
+[e $ < _i -> 500 `i 399  ]
+[e $U 400  ]
+[e :U 399 ]
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 500 `i 399  ]
+[e :U 400 ]
+}
+[; ;osc.c: 39: }
+"39
+[e :UE 398 ]
+}
+"40
+[v _set_osc_8MHz `(v ~T0 @X0 1 ef ]
+{
+[; ;osc.c: 40: void set_osc_8MHz(void){
+[e :U _set_osc_8MHz ]
+[f ]
+"41
+[v _i `i ~T0 @X0 1 a ]
+[; ;osc.c: 41: int i;
+[; ;osc.c: 43: OSCCONbits.IRCF2 = 1;
+"43
+[e = . . _OSCCONbits 1 6 -> -> 1 `i `uc ]
+[; ;osc.c: 44: OSCCONbits.IRCF1 = 1;
+"44
+[e = . . _OSCCONbits 1 5 -> -> 1 `i `uc ]
+[; ;osc.c: 45: OSCCONbits.IRCF0 = 1;
+"45
+[e = . . _OSCCONbits 1 4 -> -> 1 `i `uc ]
+[; ;osc.c: 47: for(i=0;i<500;i++);
+"47
+{
+[e = _i -> 0 `i ]
+[e $ < _i -> 500 `i 403  ]
+[e $U 404  ]
+[e :U 403 ]
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 500 `i 403  ]
+[e :U 404 ]
+}
+[; ;osc.c: 48: }
+"48
+[e :UE 402 ]
+}
 "50
-[e :UE 395 ]
+[v _set_osc_4MHz `(v ~T0 @X0 1 ef ]
+{
+[; ;osc.c: 50: void set_osc_4MHz(void){
+[e :U _set_osc_4MHz ]
+[f ]
+"51
+[v _i `i ~T0 @X0 1 a ]
+[; ;osc.c: 51: int i;
+[; ;osc.c: 53: OSCCONbits.IRCF2 = 1;
+"53
+[e = . . _OSCCONbits 1 6 -> -> 1 `i `uc ]
+[; ;osc.c: 54: OSCCONbits.IRCF1 = 1;
+"54
+[e = . . _OSCCONbits 1 5 -> -> 1 `i `uc ]
+[; ;osc.c: 55: OSCCONbits.IRCF0 = 0;
+"55
+[e = . . _OSCCONbits 1 4 -> -> 0 `i `uc ]
+[; ;osc.c: 57: for(i=0;i<500;i++);
+"57
+{
+[e = _i -> 0 `i ]
+[e $ < _i -> 500 `i 407  ]
+[e $U 408  ]
+[e :U 407 ]
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 500 `i 407  ]
+[e :U 408 ]
+}
+[; ;osc.c: 58: }
+"58
+[e :UE 406 ]
+}
+"60
+[v _set_osc_2MHz `(v ~T0 @X0 1 ef ]
+{
+[; ;osc.c: 60: void set_osc_2MHz(void){
+[e :U _set_osc_2MHz ]
+[f ]
+"61
+[v _i `i ~T0 @X0 1 a ]
+[; ;osc.c: 61: int i;
+[; ;osc.c: 63: OSCCONbits.IRCF2 = 1;
+"63
+[e = . . _OSCCONbits 1 6 -> -> 1 `i `uc ]
+[; ;osc.c: 64: OSCCONbits.IRCF1 = 0;
+"64
+[e = . . _OSCCONbits 1 5 -> -> 0 `i `uc ]
+[; ;osc.c: 65: OSCCONbits.IRCF0 = 1;
+"65
+[e = . . _OSCCONbits 1 4 -> -> 1 `i `uc ]
+[; ;osc.c: 67: for(i=0;i<500;i++);
+"67
+{
+[e = _i -> 0 `i ]
+[e $ < _i -> 500 `i 411  ]
+[e $U 412  ]
+[e :U 411 ]
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 500 `i 411  ]
+[e :U 412 ]
+}
+[; ;osc.c: 68: }
+"68
+[e :UE 410 ]
+}
+"70
+[v _set_osc_1MHz `(v ~T0 @X0 1 ef ]
+{
+[; ;osc.c: 70: void set_osc_1MHz(void){
+[e :U _set_osc_1MHz ]
+[f ]
+"71
+[v _i `i ~T0 @X0 1 a ]
+[; ;osc.c: 71: int i;
+[; ;osc.c: 73: OSCCONbits.IRCF2 = 1;
+"73
+[e = . . _OSCCONbits 1 6 -> -> 1 `i `uc ]
+[; ;osc.c: 74: OSCCONbits.IRCF1 = 0;
+"74
+[e = . . _OSCCONbits 1 5 -> -> 0 `i `uc ]
+[; ;osc.c: 75: OSCCONbits.IRCF0 = 0;
+"75
+[e = . . _OSCCONbits 1 4 -> -> 0 `i `uc ]
+[; ;osc.c: 77: for(i=0;i<500;i++);
+"77
+{
+[e = _i -> 0 `i ]
+[e $ < _i -> 500 `i 415  ]
+[e $U 416  ]
+[e :U 415 ]
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 500 `i 415  ]
+[e :U 416 ]
+}
+[; ;osc.c: 78: }
+"78
+[e :UE 414 ]
+}
+"80
+[v _set_osc_500kHz `(v ~T0 @X0 1 ef ]
+{
+[; ;osc.c: 80: void set_osc_500kHz(void){
+[e :U _set_osc_500kHz ]
+[f ]
+"81
+[v _i `i ~T0 @X0 1 a ]
+[; ;osc.c: 81: int i;
+[; ;osc.c: 83: OSCCONbits.IRCF2 = 0;
+"83
+[e = . . _OSCCONbits 1 6 -> -> 0 `i `uc ]
+[; ;osc.c: 84: OSCCONbits.IRCF1 = 1;
+"84
+[e = . . _OSCCONbits 1 5 -> -> 1 `i `uc ]
+[; ;osc.c: 85: OSCCONbits.IRCF0 = 1;
+"85
+[e = . . _OSCCONbits 1 4 -> -> 1 `i `uc ]
+[; ;osc.c: 87: for(i=0;i<500;i++);
+"87
+{
+[e = _i -> 0 `i ]
+[e $ < _i -> 500 `i 419  ]
+[e $U 420  ]
+[e :U 419 ]
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 500 `i 419  ]
+[e :U 420 ]
+}
+[; ;osc.c: 88: }
+"88
+[e :UE 418 ]
+}
+"90
+[v _set_osc_250kHz `(v ~T0 @X0 1 ef ]
+{
+[; ;osc.c: 90: void set_osc_250kHz(void){
+[e :U _set_osc_250kHz ]
+[f ]
+"91
+[v _i `i ~T0 @X0 1 a ]
+[; ;osc.c: 91: int i;
+[; ;osc.c: 93: OSCCONbits.IRCF2 = 0;
+"93
+[e = . . _OSCCONbits 1 6 -> -> 0 `i `uc ]
+[; ;osc.c: 94: OSCCONbits.IRCF1 = 1;
+"94
+[e = . . _OSCCONbits 1 5 -> -> 1 `i `uc ]
+[; ;osc.c: 95: OSCCONbits.IRCF0 = 0;
+"95
+[e = . . _OSCCONbits 1 4 -> -> 0 `i `uc ]
+[; ;osc.c: 97: for(i=0;i<500;i++);
+"97
+{
+[e = _i -> 0 `i ]
+[e $ < _i -> 500 `i 423  ]
+[e $U 424  ]
+[e :U 423 ]
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 500 `i 423  ]
+[e :U 424 ]
+}
+[; ;osc.c: 98: }
+"98
+[e :UE 422 ]
+}
+"100
+[v _set_osc_125kHz `(v ~T0 @X0 1 ef ]
+{
+[; ;osc.c: 100: void set_osc_125kHz(void){
+[e :U _set_osc_125kHz ]
+[f ]
+"101
+[v _i `i ~T0 @X0 1 a ]
+[; ;osc.c: 101: int i;
+[; ;osc.c: 103: OSCCONbits.IRCF2 = 0;
+"103
+[e = . . _OSCCONbits 1 6 -> -> 0 `i `uc ]
+[; ;osc.c: 104: OSCCONbits.IRCF1 = 0;
+"104
+[e = . . _OSCCONbits 1 5 -> -> 0 `i `uc ]
+[; ;osc.c: 105: OSCCONbits.IRCF0 = 1;
+"105
+[e = . . _OSCCONbits 1 4 -> -> 1 `i `uc ]
+[; ;osc.c: 107: for(i=0;i<500;i++);
+"107
+{
+[e = _i -> 0 `i ]
+[e $ < _i -> 500 `i 427  ]
+[e $U 428  ]
+[e :U 427 ]
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 500 `i 427  ]
+[e :U 428 ]
+}
+[; ;osc.c: 108: }
+"108
+[e :UE 426 ]
+}
+"110
+[v _set_osc_31kHz `(v ~T0 @X0 1 ef ]
+{
+[; ;osc.c: 110: void set_osc_31kHz(void){
+[e :U _set_osc_31kHz ]
+[f ]
+"111
+[v _i `i ~T0 @X0 1 a ]
+[; ;osc.c: 111: int i;
+[; ;osc.c: 113: OSCCONbits.IRCF2 = 0;
+"113
+[e = . . _OSCCONbits 1 6 -> -> 0 `i `uc ]
+[; ;osc.c: 114: OSCCONbits.IRCF1 = 0;
+"114
+[e = . . _OSCCONbits 1 5 -> -> 0 `i `uc ]
+[; ;osc.c: 115: OSCCONbits.IRCF0 = 0;
+"115
+[e = . . _OSCCONbits 1 4 -> -> 0 `i `uc ]
+[; ;osc.c: 117: for(i=0;i<500;i++);
+"117
+{
+[e = _i -> 0 `i ]
+[e $ < _i -> 500 `i 431  ]
+[e $U 432  ]
+[e :U 431 ]
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 500 `i 431  ]
+[e :U 432 ]
+}
+[; ;osc.c: 118: }
+"118
+[e :UE 430 ]
 }

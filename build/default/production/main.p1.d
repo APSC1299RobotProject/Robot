@@ -3,4 +3,5 @@
  main.c  \
 interrupts.h  \
 motor_control.h  \
-sumovore.h 
+sumovore.h  \
+osc.h 

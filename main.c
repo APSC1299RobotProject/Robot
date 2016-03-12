@@ -3,6 +3,7 @@
 #include "sumovore.h"
 #include "motor_control.h"
 #include "interrupts.h"
+#include "Common/osc.h"
 
 
 // main acts as a cyclical task sequencer

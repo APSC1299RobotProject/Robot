@@ -1,5 +1,5 @@
 
-# 1 "interrupts.c"
+# 1 "Common/osc.c"
 
 # 26 "C:\Program Files (x86)\Microchip\xc8\v1.35\include\htc.h"
 extern const char __xc8_OPTIM_SPEED;
@@ -4870,34 +4870,117 @@ extern __nonreentrant void _delaywdt(unsigned long);
 #pragma intrinsic(_delay3)
 extern __nonreentrant void _delay3(unsigned char);
 
-# 1 "interrupts.h"
-unsigned char lvd_flag_set(void);
+# 9 "Common/osc.h"
+void set_osc_32MHz(void);
+void set_osc_16MHz(void);
+void set_osc_8MHz(void);
+void set_osc_4MHz(void);
+void set_osc_2MHz(void);
+void set_osc_1MHz(void);
+void set_osc_500kHz(void);
+void set_osc_250kHz(void);
+void set_osc_125kHz(void);
+void set_osc_31kHz(void);
 
-# 8 "interrupts.c"
-static unsigned char lvd_flag=0;
+# 18 "Common/osc.c"
+void set_osc_32MHz(void){
+int i;
 
-# 24
-void interrupt high_isr(void)
-{
-PIR2bits.HLVDIF = 0;
-TRISA = 0xff;
-TRISB = 0xff;
-TRISC = 0xff;
-TRISD = 0xff;
-TRISE = 0x03;
-lvd_flag =1;
+OSCCONbits.IRCF2 = 1;
+OSCCONbits.IRCF1 = 1;
+OSCCONbits.IRCF0 = 1;
 
+OSCTUNEbits.PLLEN = 1;
 
+for(i=0;i<500;i++);
+}
+void set_osc_16MHz(void){
+int i;
 
-PIE2bits.HLVDIE = 0;
+OSCCONbits.IRCF2 = 1;
+OSCCONbits.IRCF1 = 1;
+OSCCONbits.IRCF0 = 0;
 
+OSCTUNEbits.PLLEN = 1;
 
+for(i=0;i<500;i++);
+}
+void set_osc_8MHz(void){
+int i;
 
-HLVDCONbits.HLVDEN = 0;
+OSCCONbits.IRCF2 = 1;
+OSCCONbits.IRCF1 = 1;
+OSCCONbits.IRCF0 = 1;
+
+for(i=0;i<500;i++);
 }
 
-# 47
-unsigned char lvd_flag_set(void)
-{
-return lvd_flag;
+void set_osc_4MHz(void){
+int i;
+
+OSCCONbits.IRCF2 = 1;
+OSCCONbits.IRCF1 = 1;
+OSCCONbits.IRCF0 = 0;
+
+for(i=0;i<500;i++);
+}
+
+void set_osc_2MHz(void){
+int i;
+
+OSCCONbits.IRCF2 = 1;
+OSCCONbits.IRCF1 = 0;
+OSCCONbits.IRCF0 = 1;
+
+for(i=0;i<500;i++);
+}
+
+void set_osc_1MHz(void){
+int i;
+
+OSCCONbits.IRCF2 = 1;
+OSCCONbits.IRCF1 = 0;
+OSCCONbits.IRCF0 = 0;
+
+for(i=0;i<500;i++);
+}
+
+void set_osc_500kHz(void){
+int i;
+
+OSCCONbits.IRCF2 = 0;
+OSCCONbits.IRCF1 = 1;
+OSCCONbits.IRCF0 = 1;
+
+for(i=0;i<500;i++);
+}
+
+void set_osc_250kHz(void){
+int i;
+
+OSCCONbits.IRCF2 = 0;
+OSCCONbits.IRCF1 = 1;
+OSCCONbits.IRCF0 = 0;
+
+for(i=0;i<500;i++);
+}
+
+void set_osc_125kHz(void){
+int i;
+
+OSCCONbits.IRCF2 = 0;
+OSCCONbits.IRCF1 = 0;
+OSCCONbits.IRCF0 = 1;
+
+for(i=0;i<500;i++);
+}
+
+void set_osc_31kHz(void){
+int i;
+
+OSCCONbits.IRCF2 = 0;
+OSCCONbits.IRCF1 = 0;
+OSCCONbits.IRCF0 = 0;
+
+for(i=0;i<500;i++);
 }
