@@ -1,0 +1,1084 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4525 ]
+[d frameptr 4065 ]
+"189 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[e E4160 motor_selection `uc
+left 0
+right 1
+]
+[e E4152 motor_speed_setting `uc
+rev_fast 0
+rev_medium 1
+rev_slow 2
+stop 3
+slow 4
+medium 5
+fast 6
+]
+"192
+[e E4216 e_direction `uc
+reverse 0
+forward 1
+]
+"42 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\motor_control.c
+[e E27 motor_selection `uc
+left 0
+right 1
+]
+[e E19 motor_speed_setting `uc
+rev_fast 0
+rev_medium 1
+rev_slow 2
+stop 3
+slow 4
+medium 5
+fast 6
+]
+"15 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs/Common/osc.c
+[v _set_osc_32MHz set_osc_32MHz `(v  1 e 0 0 ]
+"464 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\putch.c
+[v _putch putch `(v  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"26 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\ADC\adcbusy.c
+[v _BusyADC BusyADC `(uc  1 e 1 0 ]
+"22 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\ADC\adcconv.c
+[v _ConvertADC ConvertADC `(v  1 e 0 0 ]
+"68 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\ADC\adcopen.c
+[v _OpenADC OpenADC `(v  1 e 0 0 ]
+"24 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\ADC\adcread.c
+[v _ReadADC ReadADC `(i  1 e 2 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\ADC\adcsetch.c
+[v _SetChanADC SetChanADC `(v  1 e 0 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\PWM\pw1open.c
+[v _OpenPWM1 OpenPWM1 `(v  1 e 0 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\PWM\pw1setdc.c
+[v _SetDCPWM1 SetDCPWM1 `(v  1 e 0 0 ]
+"18 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\PWM\pw2open.c
+[v _OpenPWM2 OpenPWM2 `(v  1 e 0 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\PWM\pw2setdc.c
+[v _SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\reset\isbor.c
+[v _isBOR isBOR `(uc  1 e 1 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\reset\ispor.c
+[v _isPOR isPOR `(uc  1 e 1 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\reset\iswdtto.c
+[v _isWDTTO isWDTTO `(uc  1 e 1 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\reset\statrst.c
+[v _StatusReset StatusReset `(v  1 e 0 0 ]
+"17 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\Timers\t2open.c
+[v _OpenTimer2 OpenTimer2 `(v  1 e 0 0 ]
+"73 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+"24 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\interrupts.c
+[v _high_isr high_isr `II(v  1 e 0 0 ]
+"47
+[v _lvd_flag_set lvd_flag_set `(uc  1 e 1 0 ]
+"9 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"11 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\motor_control.c
+[v _motor_control motor_control `(v  1 e 0 0 ]
+"31
+[v _follow_simple_curves follow_simple_curves `(v  1 e 0 0 ]
+"40
+[v _spin_left spin_left `(v  1 e 0 0 ]
+"46
+[v _turn_left turn_left `(v  1 e 0 0 ]
+"51
+[v _straight_fwd straight_fwd `(v  1 e 0 0 ]
+"56
+[v _spin_right spin_right `(v  1 e 0 0 ]
+"61
+[v _turn_right turn_right `(v  1 e 0 0 ]
+"65 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _initialization initialization `(v  1 e 0 0 ]
+"124
+[v _openPORTCforUSART openPORTCforUSART `(v  1 e 0 0 ]
+"133
+[v _openPORTCforPWM openPORTCforPWM `(v  1 e 0 0 ]
+"147
+[v _openPORTA openPORTA `(v  1 e 0 0 ]
+"158
+[v _openPORTB openPORTB `(v  1 e 0 0 ]
+"168
+[v _openPORTD openPORTD `(v  1 e 0 0 ]
+"178
+[v _openPORTE openPORTE `(v  1 e 0 0 ]
+"188
+[v _set_motor_speed set_motor_speed `(v  1 e 0 0 ]
+"218
+[v _motors_brake_all motors_brake_all `(v  1 e 0 0 ]
+"229
+[v _adc adc `(ui  1 e 2 0 ]
+"241
+[v _check_sensors check_sensors `(v  1 e 0 0 ]
+"255
+[v _set_leds set_leds `(v  1 e 0 0 ]
+"281
+[v _reset_codes reset_codes `(v  1 e 0 0 ]
+"306
+[v _PORtask PORtask `(v  1 e 0 0 ]
+"348
+[v _BORtask BORtask `(v  1 e 0 0 ]
+"369
+[v _WDTtask WDTtask `(v  1 e 0 0 ]
+"388
+[v _STKFULtask STKFULtask `(v  1 e 0 0 ]
+"404
+[v _RESETtask RESETtask `(v  1 e 0 0 ]
+"427
+[v _openLVD openLVD `(v  1 e 0 0 ]
+"448
+[v _LVtrap LVtrap `(v  1 e 0 0 ]
+"463
+[v _gtrap gtrap `(v  1 e 0 0 ]
+[s S411 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"405 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic18f4525.h
+[s S420 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S429 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S438 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S440 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S443 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S446 . 1 `S411 1 . 1 0 `S420 1 . 1 0 `S429 1 . 1 0 `S438 1 . 1 0 `S440 1 . 1 0 `S443 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES446  1 e 1 @3970 ]
+"534
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S794 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"571
+[s S803 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S812 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S817 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S820 . 1 `S794 1 . 1 0 `S803 1 . 1 0 `S812 1 . 1 0 `S817 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES820  1 e 1 @3971 ]
+[s S489 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"799
+[s S494 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
+]
+[s S499 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S501 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S504 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S507 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S510 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S515 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S520 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CCP10 1 0 :1:2 
+]
+[s S523 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CCP2E 1 0 :1:7 
+]
+[s S526 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CCP6E 1 0 :1:6 
+]
+[s S529 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 CCP7E 1 0 :1:5 
+]
+[s S532 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CCP8E 1 0 :1:4 
+]
+[s S535 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S538 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PA2E 1 0 :1:7 
+]
+[s S541 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PB1E 1 0 :1:6 
+]
+[s S544 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PB2 1 0 :1:2 
+]
+[s S547 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 PB3E 1 0 :1:4 
+]
+[s S550 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 PC1E 1 0 :1:5 
+]
+[s S553 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+]
+[s S556 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 PC3E 1 0 :1:3 
+]
+[s S559 . 1 `uc 1 PD2 1 0 :1:0 
+]
+[s S561 . 1 `uc 1 RDE 1 0 :1:0 
+]
+[s S563 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RE4 1 0 :1:4 
+]
+[s S566 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RE5 1 0 :1:5 
+]
+[s S569 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RE6 1 0 :1:6 
+]
+[s S572 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RE7 1 0 :1:7 
+]
+[s S575 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+]
+[u S578 . 1 `S489 1 . 1 0 `S494 1 . 1 0 `S499 1 . 1 0 `S501 1 . 1 0 `S504 1 . 1 0 `S507 1 . 1 0 `S510 1 . 1 0 `S515 1 . 1 0 `S520 1 . 1 0 `S523 1 . 1 0 `S526 1 . 1 0 `S529 1 . 1 0 `S532 1 . 1 0 `S535 1 . 1 0 `S538 1 . 1 0 `S541 1 . 1 0 `S544 1 . 1 0 `S547 1 . 1 0 `S550 1 . 1 0 `S553 1 . 1 0 `S556 1 . 1 0 `S559 1 . 1 0 `S561 1 . 1 0 `S563 1 . 1 0 `S566 1 . 1 0 `S569 1 . 1 0 `S572 1 . 1 0 `S575 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES578  1 e 1 @3972 ]
+"1633
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1854
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S1739 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1886
+[s S1748 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S1757 . 1 `S1739 1 . 1 0 `S1748 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES1757  1 e 1 @3987 ]
+"2075
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S722 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2107
+[u S740 . 1 `S722 1 . 1 0 `S411 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES740  1 e 1 @3988 ]
+"2296
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2517
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S1240 . 1 `uc 1 TUN 1 0 :5:0 
+`uc 1 . 1 0 :1:5 
+`uc 1 PLLEN 1 0 :1:6 
+`uc 1 INTSRC 1 0 :1:7 
+]
+"2700
+[s S1245 . 1 `uc 1 TUN0 1 0 :1:0 
+`uc 1 TUN1 1 0 :1:1 
+`uc 1 TUN2 1 0 :1:2 
+`uc 1 TUN3 1 0 :1:3 
+`uc 1 TUN4 1 0 :1:4 
+]
+[u S1251 . 1 `S1240 1 . 1 0 `S1245 1 . 1 0 ]
+[v _OSCTUNEbits OSCTUNEbits `VES1251  1 e 1 @3995 ]
+[s S1473 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"2769
+[s S1482 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[s S1485 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+]
+[u S1488 . 1 `S1473 1 . 1 0 `S1482 1 . 1 0 `S1485 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES1488  1 e 1 @3997 ]
+[s S1438 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2848
+[s S1447 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S1450 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S1453 . 1 `S1438 1 . 1 0 `S1447 1 . 1 0 `S1450 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1453  1 e 1 @3998 ]
+[s S85 . 1 `uc 1 CCP2IE 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 HLVDIE 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+`uc 1 EEIE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMIE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"3002
+[s S94 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIE 1 0 :1:2 
+]
+[u S97 . 1 `S85 1 . 1 0 `S94 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES97  1 e 1 @4000 ]
+[s S52 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"3067
+[s S61 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+[u S64 . 1 `S52 1 . 1 0 `S61 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES64  1 e 1 @4001 ]
+[s S967 . 1 `uc 1 CCP2IP 1 0 :1:0 
+`uc 1 TMR3IP 1 0 :1:1 
+`uc 1 HLVDIP 1 0 :1:2 
+`uc 1 BCLIP 1 0 :1:3 
+`uc 1 EEIP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMIP 1 0 :1:6 
+`uc 1 OSCFIP 1 0 :1:7 
+]
+"3132
+[s S976 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIP 1 0 :1:2 
+]
+[u S979 . 1 `S967 1 . 1 0 `S976 1 . 1 0 ]
+[v _IPR2bits IPR2bits `VES979  1 e 1 @4002 ]
+"3265
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S1982 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3306
+[s S1991 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S1994 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S1997 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S2000 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S2003 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S2005 . 1 `S1982 1 . 1 0 `S1991 1 . 1 0 `S1994 1 . 1 0 `S1997 1 . 1 0 `S2000 1 . 1 0 `S2003 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES2005  1 e 1 @4011 ]
+"3474
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S1895 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3534
+[s S1904 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S1907 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S1910 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S1913 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S1916 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S1919 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S1922 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S1924 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[s S1927 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S1930 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S1932 . 1 `S1895 1 . 1 0 `S1904 1 . 1 0 `S1907 1 . 1 0 `S1910 1 . 1 0 `S1913 1 . 1 0 `S1916 1 . 1 0 `S1919 1 . 1 0 `S1922 1 . 1 0 `S1924 1 . 1 0 `S1927 1 . 1 0 `S1930 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES1932  1 e 1 @4012 ]
+"3793
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3804
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"4515
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+"4599
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"4611
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"4713
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"4725
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4795
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4885
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S1309 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4933
+[s S1312 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S1319 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S1326 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S1329 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S1332 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S1335 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S1338 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S1341 . 1 `S1309 1 . 1 0 `S1312 1 . 1 0 `S1309 1 . 1 0 `S1319 1 . 1 0 `S1326 1 . 1 0 `S1329 1 . 1 0 `S1332 1 . 1 0 `S1335 1 . 1 0 `S1338 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1341  1 e 1 @4034 ]
+"5013
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"5019
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"5406
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+[s S1658 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"5434
+[s S1662 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[s S1670 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S1676 . 1 `S1658 1 . 1 0 `S1662 1 . 1 0 `S1670 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1676  1 e 1 @4042 ]
+"5503
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"5612
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+[s S207 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"5783
+[s S209 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S212 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S215 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S218 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S221 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S230 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S236 . 1 `S207 1 . 1 0 `S209 1 . 1 0 `S212 1 . 1 0 `S215 1 . 1 0 `S218 1 . 1 0 `S221 1 . 1 0 `S230 1 . 1 0 ]
+[v _RCONbits RCONbits `VES236  1 e 1 @4048 ]
+[s S113 . 1 `uc 1 HLVDL 1 0 :4:0 
+`uc 1 HLVDEN 1 0 :1:4 
+`uc 1 IVRST 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 VDIRMAG 1 0 :1:7 
+]
+"5940
+[s S119 . 1 `uc 1 HLVDL0 1 0 :1:0 
+`uc 1 HLVDL1 1 0 :1:1 
+`uc 1 HLVDL2 1 0 :1:2 
+`uc 1 HLVDL3 1 0 :1:3 
+]
+[s S124 . 1 `uc 1 LVDL0 1 0 :1:0 
+`uc 1 LVDL1 1 0 :1:1 
+`uc 1 LVDL2 1 0 :1:2 
+`uc 1 LVDL3 1 0 :1:3 
+`uc 1 LVDEN 1 0 :1:4 
+`uc 1 IRVST 1 0 :1:5 
+]
+[s S131 . 1 `uc 1 LVV0 1 0 :1:0 
+`uc 1 LVV1 1 0 :1:1 
+`uc 1 LVV2 1 0 :1:2 
+`uc 1 LVV3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 BGST 1 0 :1:5 
+]
+[u S138 . 1 `S113 1 . 1 0 `S119 1 . 1 0 `S124 1 . 1 0 `S131 1 . 1 0 ]
+[v _HLVDCONbits HLVDCONbits `VES138  1 e 1 @4050 ]
+[s S1208 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"6191
+[s S1214 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 FLTS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S1222 . 1 `S1208 1 . 1 0 `S1214 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES1222  1 e 1 @4051 ]
+[s S274 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6795
+[s S283 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S292 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S301 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S310 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S314 . 1 `S274 1 . 1 0 `S283 1 . 1 0 `S292 1 . 1 0 `S301 1 . 1 0 `S310 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES314  1 e 1 @4082 ]
+[s S876 . 1 `uc 1 STKPTR 1 0 :5:0 
+`uc 1 . 1 0 :1:5 
+`uc 1 STKUNF 1 0 :1:6 
+`uc 1 STKFUL 1 0 :1:7 
+]
+"6991
+[s S881 . 1 `uc 1 STKPTR0 1 0 :1:0 
+`uc 1 STKPTR1 1 0 :1:1 
+`uc 1 STKPTR2 1 0 :1:2 
+`uc 1 STKPTR3 1 0 :1:3 
+`uc 1 STKPTR4 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 STKOVF 1 0 :1:7 
+]
+[s S889 . 1 `uc 1 SP0 1 0 :1:0 
+`uc 1 SP1 1 0 :1:1 
+`uc 1 SP2 1 0 :1:2 
+`uc 1 SP3 1 0 :1:3 
+`uc 1 SP4 1 0 :1:4 
+]
+[u S895 . 1 `S876 1 . 1 0 `S881 1 . 1 0 `S889 1 . 1 0 ]
+[v _STKPTRbits STKPTRbits `VES895  1 e 1 @4092 ]
+"8 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\interrupts.c
+[v _lvd_flag lvd_flag `uc  1 s 1 lvd_flag ]
+[s S194 . 1 `uc 1 B 1 0 :5:0 
+`uc 1 . 1 0 :3:5 
+]
+"61 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[s S197 sensors 1 `uc 1 Right 1 0 :1:0 
+`uc 1 CntRight 1 0 :1:1 
+`uc 1 Center 1 0 :1:2 
+`uc 1 CntLeft 1 0 :1:3 
+`uc 1 Left 1 0 :1:4 
+`uc 1 . 1 0 :3:5 
+]
+[u S204 sensor_union 1 `S194 1 . 1 0 `S197 1 b 1 0 ]
+[v _SeeLine SeeLine `S204  1 e 1 0 ]
+"62
+[v _threshold threshold `ui  1 e 2 0 ]
+"9 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"35
+} 0
+"255 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _set_leds set_leds `(v  1 e 0 0 ]
+{
+"262
+} 0
+"11 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\motor_control.c
+[v _motor_control motor_control `(v  1 e 0 0 ]
+{
+"29
+} 0
+"218 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _motors_brake_all motors_brake_all `(v  1 e 0 0 ]
+{
+"227
+} 0
+"31 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\motor_control.c
+[v _follow_simple_curves follow_simple_curves `(v  1 e 0 0 ]
+{
+"38
+} 0
+"61
+[v _turn_right turn_right `(v  1 e 0 0 ]
+{
+"65
+} 0
+"46
+[v _turn_left turn_left `(v  1 e 0 0 ]
+{
+"50
+} 0
+"51
+[v _straight_fwd straight_fwd `(v  1 e 0 0 ]
+{
+"55
+} 0
+"56
+[v _spin_right spin_right `(v  1 e 0 0 ]
+{
+"60
+} 0
+"40
+[v _spin_left spin_left `(v  1 e 0 0 ]
+{
+"44
+} 0
+"188 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _set_motor_speed set_motor_speed `(v  1 e 0 0 ]
+{
+[v set_motor_speed@the_motor the_motor `E4160  1 a 1 wreg ]
+"191
+[v set_motor_speed@duty_cycle duty_cycle `i  1 a 2 26 ]
+"192
+[v set_motor_speed@dir_modifier dir_modifier `E4216  1 a 1 25 ]
+"188
+[v set_motor_speed@the_motor the_motor `E4160  1 a 1 wreg ]
+[v set_motor_speed@motor_speed motor_speed `E4152  1 p 1 20 ]
+[v set_motor_speed@speed_modifier speed_modifier `i  1 p 2 21 ]
+"190
+[v set_motor_speed@motor_speeds motor_speeds `C[7]i  1 s 14 motor_speeds ]
+"192
+[v set_motor_speed@the_motor the_motor `E4160  1 a 1 24 ]
+"216
+} 0
+"47 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\interrupts.c
+[v _lvd_flag_set lvd_flag_set `(uc  1 e 1 0 ]
+{
+"50
+} 0
+"65 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _initialization initialization `(v  1 e 0 0 ]
+{
+"119
+} 0
+"15 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs/Common/osc.c
+[v _set_osc_32MHz set_osc_32MHz `(v  1 e 0 0 ]
+{
+"17
+[v set_osc_32MHz@i i `i  1 a 2 14 ]
+"29
+} 0
+"281 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _reset_codes reset_codes `(v  1 e 0 0 ]
+{
+"297
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\reset\iswdtto.c
+[v _isWDTTO isWDTTO `(uc  1 e 1 0 ]
+{
+"40
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\reset\ispor.c
+[v _isPOR isPOR `(uc  1 e 1 0 ]
+{
+"44
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\reset\isbor.c
+[v _isBOR isBOR `(uc  1 e 1 0 ]
+{
+"21
+} 0
+"369 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _WDTtask WDTtask `(v  1 e 0 0 ]
+{
+"378
+} 0
+"388
+[v _STKFULtask STKFULtask `(v  1 e 0 0 ]
+{
+"399
+} 0
+"404
+[v _RESETtask RESETtask `(v  1 e 0 0 ]
+{
+"414
+} 0
+"306
+[v _PORtask PORtask `(v  1 e 0 0 ]
+{
+"308
+[v PORtask@count2 count2 `ul  1 a 4 23 ]
+[v PORtask@count1 count1 `ul  1 a 4 19 ]
+"334
+} 0
+"348
+[v _BORtask BORtask `(v  1 e 0 0 ]
+{
+"359
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\reset\statrst.c
+[v _StatusReset StatusReset `(v  1 e 0 0 ]
+{
+"17
+} 0
+"178 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _openPORTE openPORTE `(v  1 e 0 0 ]
+{
+"184
+} 0
+"124
+[v _openPORTCforUSART openPORTCforUSART `(v  1 e 0 0 ]
+{
+"128
+} 0
+"133
+[v _openPORTCforPWM openPORTCforPWM `(v  1 e 0 0 ]
+{
+"142
+} 0
+"158
+[v _openPORTB openPORTB `(v  1 e 0 0 ]
+{
+"163
+} 0
+"147
+[v _openPORTA openPORTA `(v  1 e 0 0 ]
+{
+"153
+} 0
+"427
+[v _openLVD openLVD `(v  1 e 0 0 ]
+{
+"442
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\PWM\pw2setdc.c
+[v _SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
+{
+[u S1706 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+"9
+[v SetDCPWM2@DCycle DCycle `S1706  1 a 2 18 ]
+"7
+[v SetDCPWM2@dutycycle dutycycle `ui  1 p 2 14 ]
+"19
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\PWM\pw1setdc.c
+[v _SetDCPWM1 SetDCPWM1 `(v  1 e 0 0 ]
+{
+[u S1706 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+"9
+[v SetDCPWM1@DCycle DCycle `S1706  1 a 2 18 ]
+"7
+[v SetDCPWM1@dutycycle dutycycle `ui  1 p 2 14 ]
+"19
+} 0
+"73 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+{
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@spbrg spbrg `ui  1 p 2 14 ]
+"75
+[v OpenUSART@config config `uc  1 a 1 16 ]
+"143
+} 0
+"17 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\Timers\t2open.c
+[v _OpenTimer2 OpenTimer2 `(v  1 e 0 0 ]
+{
+[v OpenTimer2@config config `uc  1 a 1 wreg ]
+[v OpenTimer2@config config `uc  1 a 1 wreg ]
+"19
+[v OpenTimer2@config config `uc  1 a 1 14 ]
+"31
+} 0
+"18 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\PWM\pw2open.c
+[v _OpenPWM2 OpenPWM2 `(v  1 e 0 0 ]
+{
+[v OpenPWM2@period period `uc  1 a 1 wreg ]
+"23
+[v OpenPWM2@ccp2mx ccp2mx `uc  1 a 1 15 ]
+"18
+[v OpenPWM2@period period `uc  1 a 1 wreg ]
+"33
+[v OpenPWM2@period period `uc  1 a 1 14 ]
+"80
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\PWM\pw1open.c
+[v _OpenPWM1 OpenPWM1 `(v  1 e 0 0 ]
+{
+[v OpenPWM1@period period `uc  1 a 1 wreg ]
+[v OpenPWM1@period period `uc  1 a 1 wreg ]
+"11
+[v OpenPWM1@period period `uc  1 a 1 14 ]
+"19
+} 0
+"68 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\ADC\adcopen.c
+[v _OpenADC OpenADC `(v  1 e 0 0 ]
+{
+[v OpenADC@config config `uc  1 a 1 wreg ]
+[v OpenADC@config config `uc  1 a 1 wreg ]
+"69
+[v OpenADC@config2 config2 `uc  1 p 1 14 ]
+"70
+[v OpenADC@portconfig portconfig `uc  1 p 1 15 ]
+"72
+[v OpenADC@config config `uc  1 a 1 18 ]
+"89
+} 0
+"241 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _check_sensors check_sensors `(v  1 e 0 0 ]
+{
+"248
+} 0
+"229
+[v _adc adc `(ui  1 e 2 0 ]
+{
+[v adc@channel channel `uc  1 a 1 wreg ]
+[v adc@channel channel `uc  1 a 1 wreg ]
+"231
+[v adc@channel channel `uc  1 a 1 20 ]
+"236
+} 0
+"30 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\ADC\adcsetch.c
+[v _SetChanADC SetChanADC `(v  1 e 0 0 ]
+{
+[v SetChanADC@channel channel `uc  1 a 1 wreg ]
+[v SetChanADC@channel channel `uc  1 a 1 wreg ]
+"34
+[v SetChanADC@channel channel `uc  1 a 1 15 ]
+"36
+} 0
+"24 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\ADC\adcread.c
+[v _ReadADC ReadADC `(i  1 e 2 0 ]
+{
+"27
+} 0
+"22 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\ADC\adcconv.c
+[v _ConvertADC ConvertADC `(v  1 e 0 0 ]
+{
+"25
+} 0
+"26 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\ADC\adcbusy.c
+[v _BusyADC BusyADC `(uc  1 e 1 0 ]
+{
+"29
+} 0
+"448 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _LVtrap LVtrap `(v  1 e 0 0 ]
+{
+"458
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 16 ]
+"499
+[v printf@c c `c  1 a 1 18 ]
+"464
+[v printf@f f `*.32Cuc  1 p 2 14 ]
+"1541
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\putch.c
+[v _putch putch `(v  1 e 0 0 ]
+{
+"9
+} 0
+"168 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\sumovore.c
+[v _openPORTD openPORTD `(v  1 e 0 0 ]
+{
+"173
+} 0
+"463
+[v _gtrap gtrap `(v  1 e 0 0 ]
+{
+"465
+[v gtrap@count count `ul  1 a 4 14 ]
+"483
+} 0
+"24 C:\Users\iaina\Desktop\Peter School stuff\Engineering 2nd semester\APSC 1299\APSC 1299 Labs\Robot.X\interrupts.c
+[v _high_isr high_isr `II(v  1 e 0 0 ]
+{
+"41
+} 0
