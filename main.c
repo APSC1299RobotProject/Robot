@@ -14,6 +14,7 @@ void main(void)
                       // IO pins, the ADC, the 
                       // USART and the default
                       // threshold
+    //asdfasdf
     printf("\n\rKwantlen APSC1299 simple curve follower -- with error codes\n\r"); 
     ClrWdt();         // defined in <p18f4525.h>
 
