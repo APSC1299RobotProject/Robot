@@ -45,16 +45,34 @@ extern union sensor_union SeeLine;
 # 1 "motor_control.h"
 void motor_control(void);
 
-# 4 "motor_control.c"
+# 9 "Common/osc.h"
+void set_osc_32MHz(void);
+void set_osc_16MHz(void);
+void set_osc_8MHz(void);
+void set_osc_4MHz(void);
+void set_osc_2MHz(void);
+void set_osc_1MHz(void);
+void set_osc_500kHz(void);
+void set_osc_250kHz(void);
+void set_osc_125kHz(void);
+void set_osc_31kHz(void);
+
+# 6 "motor_control.c"
 void follow_simple_curves(void);
+void no_track(void);
 void spin_left(void);
 void turn_left(void);
 void straight_fwd(void);
 void turn_right(void);
 void spin_right(void);
+void tightTurn(void);
+
+
+
 
 void motor_control(void)
 {
+
 
 switch(SeeLine.B)
 {
@@ -67,21 +85,59 @@ case 0b10000u:
 follow_simple_curves();
 break;
 case 0b00000u:
+
+follow_simple_curves();
 motors_brake_all();
 break;
 default: break;
 }
 }
+void tightTurn(void){
+if (SeeLine.b.Center){
+if (SeeLine.b.Left&&!SeeLine.b.CntLeft){
+straight_fwd();
+if (SeeLine.b.CntLeft){
+straight_fwd();
+if (SeeLine.B){
+
+follow_simple_curves();
+} else {
+spin_left();
+if(SeeLine.B) follow_simple_curves();
+}
+
+}
+
+}
+if (SeeLine.b.Right&&!SeeLine.b.CntRight){
+straight_fwd();
+if (SeeLine.b.CntRight){
+straight_fwd();
+if (SeeLine.B){
+
+follow_simple_curves();
+} else {
+spin_right();
+if(SeeLine.B) follow_simple_curves();
+}
+}
+}
+}
+}
 
 void follow_simple_curves(void)
 {
+
 if ( SeeLine.b.Center ) straight_fwd();
 else if (SeeLine.b.Left) spin_left();
 else if (SeeLine.b.CntLeft) turn_left();
 else if (SeeLine.b.CntRight) turn_right();
 else if (SeeLine.b.Right) spin_right();
+else no_track();
+
 }
 
+# 108
 void spin_left(void)
 {
 set_motor_speed(left, rev_fast, 0);
@@ -95,8 +151,8 @@ set_motor_speed(right, fast, 0);
 }
 void straight_fwd(void)
 {
-set_motor_speed(left, fast, 0);
-set_motor_speed(right, fast, 0);
+set_motor_speed(left, fast, -35);
+set_motor_speed(right, fast, 185);
 }
 void spin_right(void)
 {

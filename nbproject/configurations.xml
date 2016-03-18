@@ -39,9 +39,9 @@
         <targetDevice>PIC18F4525</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>Simulator</platformTool>
+        <platformTool>PICkit2PlatformTool</platformTool>
         <languageToolchain>XC8</languageToolchain>
-        <languageToolchainVersion>1.35</languageToolchainVersion>
+        <languageToolchainVersion>1.31</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <compileType>
@@ -149,7 +149,7 @@
         <property key="oscillator.rcfrequencyunit" value="Kilo"/>
         <property key="performancedata.show" value="false"/>
         <property key="periphADC1.altscl" value="false"/>
-        <property key="periphADC1.minTacq" value=""/>
+        <property key="periphADC1.minTacq" value="5"/>
         <property key="periphADC1.tacqunits" value="microseconds"/>
         <property key="periphADC2.altscl" value="false"/>
         <property key="periphADC2.minTacq" value=""/>
@@ -160,8 +160,6 @@
         <property key="periphComp4.gte" value="gt"/>
         <property key="periphComp5.gte" value="gt"/>
         <property key="periphComp6.gte" value="gt"/>
-        <property key="reset.scl" value="false"/>
-        <property key="reset.type" value="MCLR"/>
         <property key="tracecontrol.include.timestamp" value="summarydataenabled"/>
         <property key="tracecontrol.select" value="0"/>
         <property key="tracecontrol.stallontracebufferfull" value="false"/>
@@ -284,18 +282,6 @@
                   value="report"/>
         <property key="warningmessagebreakoptions.W0227_ADC_INVALID_ADCS"
                   value="report"/>
-        <property key="warningmessagebreakoptions.W0228_ADC_INVALID_ADCS"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W0229_ADC_INVALID_ADCS"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W0400_PWM_PWM_FASTER_THAN_FOSC"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W0700_CLC_GENERAL_WARNING"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W0701_CLC_CLCOUT_AS_INPUT"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W0702_CLC_CIRCULAR_LOOP"
-                  value="report"/>
         <property key="warningmessagebreakoptions.W1201_DATAFLASH_MEM_OUTSIDE_RANGE"
                   value="report"/>
         <property key="warningmessagebreakoptions.W1202_DATAFLASH_ERASE_WHILE_LOCKED"
@@ -314,16 +300,6 @@
                   value="report"/>
         <property key="warningmessagebreakoptions.W2002_INPUTCAPTURE_CAPTURE_EMPTY"
                   value="report"/>
-        <property key="warningmessagebreakoptions.W2003_INPUTCAPTURE_SYNCSEL_NOT_AVIALABLE"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W2004_INPUTCAPTURE_BAD_SYNC_SOURCE"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W2501_OUTPUTCOMPARE_SYNCSEL_NOT_AVIALABLE"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W2502_OUTPUTCOMPARE_BAD_SYNC_SOURCE"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W2503_OUTPUTCOMPARE_BAD_TRIGGER_SOURCE"
-                  value="report"/>
         <property key="warningmessagebreakoptions.W9001_TMR_GATE_AND_EXTCLOCK_ENABLED"
                   value="report"/>
         <property key="warningmessagebreakoptions.W9002_TMR_NO_PIN_AVAILABLE"
@@ -339,18 +315,6 @@
         <property key="warningmessagebreakoptions.W9204_UART_RX_EMPTY_QUEUE"
                   value="report"/>
         <property key="warningmessagebreakoptions.W9205_UART_TX_BADFILE" value="report"/>
-        <property key="warningmessagebreakoptions.W9401_CVREF_INVALIDSOURCESELECTION"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W9402_CVREF_INPUT_OUTPUTPINCONFLICT"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W9601_COMP_FVR_SOURCE_UNAVAILABLE"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W9602_COMP_DAC_SOURCE_UNAVAILABLE"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W9603_COMP_CVREF_SOURCE_UNAVAILABLE"
-                  value="report"/>
-        <property key="warningmessagebreakoptions.W9801_FVR_INVALID_MODE_SELECTION"
-                  value="report"/>
         <property key="warningmessagebreakoptions.W9801_SCL_BAD_SUBTYPE_INDICATION"
                   value="report"/>
         <property key="warningmessagebreakoptions.W9802_SCL_FILE_NOT_FOUND"

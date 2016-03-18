@@ -11,103 +11,105 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
+$C:\Users\Student\AppData\Local\Temp\s3t8.obj
+end_init CODE 0 12 12 4 1
+reset_vec CODE 0 0 0 2 1
 $dist/default/debug\Robot.debug.obj
-cinit CODE 0 1976 1976 12 1
-intcode_body CODE 0 1338 1338 84 1
-text0 CODE 0 160A 160A 38 1
-text1 CODE 0 13BC 13BC 7E 1
-text2 CODE 0 1642 1642 38 1
-text3 CODE 0 1860 1860 22 1
-text4 CODE 0 16B2 16B2 32 1
-text5 CODE 0 1710 1710 26 1
-text6 CODE 0 1736 1736 26 1
-text7 CODE 0 175C 175C 26 1
-text8 CODE 0 1782 1782 26 1
-text9 CODE 0 17A8 17A8 26 1
-text10 CODE 0 1144 1144 BC 1
-text11 CODE 0 19E6 19E6 4 1
-text12 CODE 0 12A8 12A8 90 1
-text13 CODE 0 17CE 17CE 26 1
-text14 CODE 0 1556 1556 40 1
-text15 CODE 0 17F4 17F4 24 1
-text16 CODE 0 1818 1818 24 1
-text17 CODE 0 1962 1962 14 1
-text18 CODE 0 18E0 18E0 1C 1
-text19 CODE 0 18C2 18C2 1E 1
-text20 CODE 0 18FC 18FC 1C 1
-text21 CODE 0 1200 1200 A8 1
-text22 CODE 0 1882 1882 20 1
-text23 CODE 0 19C2 19C2 6 1
-text24 CODE 0 19C8 19C8 6 1
-text25 CODE 0 19CE 19CE 6 1
-text26 CODE 0 199A 199A E 1
-text27 CODE 0 19D4 19D4 6 1
-text28 CODE 0 19DA 19DA 6 1
-text29 CODE 0 1934 1934 18 1
-text30 CODE 0 1596 1596 3A 1
-text31 CODE 0 15D0 15D0 3A 1
-text32 CODE 0 143A 143A 60 1
-text33 CODE 0 1918 1918 1C 1
-text34 CODE 0 167A 167A 38 1
-text35 CODE 0 1988 1988 12 1
-text36 CODE 0 149A 149A 5E 1
-text37 CODE 0 1080 1080 C4 1
-text38 CODE 0 183C 183C 24 1
-text39 CODE 0 194C 194C 16 1
-text40 CODE 0 19A8 19A8 E 1
-text41 CODE 0 19EA 19EA 4 1
-text42 CODE 0 19B6 19B6 C 1
-text43 CODE 0 18A2 18A2 20 1
-text44 CODE 0 16E4 16E4 2C 1
-text45 CODE 0 19EE 19EE 2 1
-text46 CODE 0 19E0 19E0 6 1
-text47 CODE 0 14F8 14F8 5E 1
-cstackCOMRAM COMRAM 1 1 1 1C 1
-temp COMRAM 1 21 21 1 1
-intcode CODE 0 8 8 E 1
+intcode CODE 0 2 2 10 1
 smallconst SMALLCONST 0 1000 1000 80 1
-bssCOMRAM COMRAM 1 1D 1D 4 1
-$C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-idloc IDLOC 0 200000 200000 8 1
-reset_vec CODE 0 0 0 4 1
-end_init CODE 0 16 16 4 1
-config CONFIG 0 300000 300000 E 1
+intcode_body CODE 0 1362 1362 82 1
+text47 CODE 0 14CC 14CC 62 1
+text46 CODE 0 1A36 1A36 6 1
+text45 CODE 0 1A44 1A44 2 1
+text44 CODE 0 172E 172E 34 1
+text43 CODE 0 18D8 18D8 20 1
+text42 CODE 0 1A02 1A02 C 1
+text41 CODE 0 1A40 1A40 4 1
+text40 CODE 0 1A0E 1A0E A 1
+text39 CODE 0 1984 1984 18 1
+text38 CODE 0 1870 1870 26 1
+text37 CODE 0 1154 1154 C4 1
+text36 CODE 0 152E 152E 60 1
+text35 CODE 0 19C4 19C4 14 1
+text34 CODE 0 15CE 15CE 40 1
+text33 CODE 0 1916 1916 1E 1
+text32 CODE 0 1462 1462 6A 1
+text31 CODE 0 1684 1684 3A 1
+text30 CODE 0 164A 164A 3A 1
+text29 CODE 0 196C 196C 18 1
+text28 CODE 0 1A30 1A30 6 1
+text27 CODE 0 1A2A 1A2A 6 1
+text26 CODE 0 19F4 19F4 E 1
+text25 CODE 0 1A24 1A24 6 1
+text24 CODE 0 1A1E 1A1E 6 1
+text23 CODE 0 1A18 1A18 6 1
+text22 CODE 0 18B8 18B8 20 1
+text21 CODE 0 1218 1218 B2 1
+text20 CODE 0 1950 1950 1C 1
+text19 CODE 0 18F8 18F8 1E 1
+text18 CODE 0 1934 1934 1C 1
+text17 CODE 0 19E6 19E6 E 1
+text16 CODE 0 19B0 19B0 14 1
+text15 CODE 0 199C 199C 14 1
+text14 CODE 0 158E 158E 40 1
+text13 CODE 0 1848 1848 28 1
+text12 CODE 0 12CA 12CA 98 1
+text11 CODE 0 1A3C 1A3C 4 1
+text10 CODE 0 1080 1080 D4 1
+text9 CODE 0 181A 181A 2E 1
+text8 CODE 0 17EC 17EC 2E 1
+text7 CODE 0 17BE 17BE 2E 1
+text6 CODE 0 1790 1790 2E 1
+text5 CODE 0 1762 1762 2E 1
+text4 CODE 0 16F6 16F6 38 1
+text3 CODE 0 1896 1896 22 1
+text2 CODE 0 160E 160E 3C 1
+text1 CODE 0 13E4 13E4 7E 1
+text0 CODE 0 16BE 16BE 38 1
+cstackCOMRAM COMRAM 1 1 1 20 1
+bssCOMRAM COMRAM 1 21 21 4 1
+cinit CODE 0 19D8 19D8 E 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 80-F7F 1
-SFR F80-FFF 1
-BANK0 80-FF 1
-BANK1 100-1FF 1
-BANK2 200-2FF 1
-BANK3 300-3FF 1
-BANK4 400-4FF 1
-BANK5 500-5FF 1
-BANK6 600-6FF 1
-BANK7 700-7FF 1
-BANK8 800-8FF 1
-BANK9 900-9FF 1
-CONST 4-7 1
-CONST 1A-FFF 1
-CONST 19F0-BFFF 1
-STACK 80-F7F 1
-SMALLCONST 19F0-BFFF 1
-CODE 4-7 1
-CODE 1A-FFF 1
-CODE 19F0-BFFF 1
-BANK10 A00-AFF 1
-BANK11 B00-BFF 1
-BANK12 C00-CFF 1
-BANK13 D00-DFF 1
-BANK14 E00-EFF 1
-BANK15 F00-F7F 1
-BIGRAM 22-F7F 1
-COMRAM 22-7F 1
+BANK0 0080-00FF 1
+BANK1 0100-01FF 1
+BANK10 0A00-0AFF 1
+BANK11 0B00-0BFF 1
+BANK12 0C00-0CFF 1
+BANK13 0D00-0DFF 1
+BANK14 0E00-0EF3 1
+BANK15 0F00-0F7F 1
+BANK2 0200-02FF 1
+BANK3 0300-03FF 1
+BANK4 0400-04FF 1
+BANK5 0500-05FF 1
+BANK6 0600-06FF 1
+BANK7 0700-07FF 1
+BANK8 0800-08FF 1
+BANK9 0900-09FF 1
+BIGRAM 0025-0EF3 1
+BIGRAM 0F00-0F7F 1
+CODE 0016-0FFF 1
+CODE 1A46-BD7F 1
+COMRAM 0025-007F 1
+CONFIG 300000-30000D 1
+CONST 0016-0FFF 1
+CONST 1A46-BD7F 1
 EEDATA F00000-F003FF 1
-MEDIUMCONST 19F0-BFFF 1
+IDLOC 200000-200007 1
+MEDIUMCONST 1A46-BD7F 1
+RAM 0080-0EF3 1
+RAM 0F00-0F7F 1
+SFR 0F80-0FD3 1
+SFR 0FD5-0FDA 1
+SFR 0FE0-0FE2 1
+SFR 0FE8-0FEA 1
+SFR 0FF0-0FFC 1
+SMALLCONST 1A46-BD7F 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -115,425 +117,429 @@ MEDIUMCONST 19F0-BFFF 1
 #   $foo.obj
 # Each line that follows describes a single mapping until the next
 # object file.  Mappings have the following format:
-#    <address> <psect name> <class name> ><line number>:<file name>
+#    <file name>:<line number> <address> <psect name> <class name>
 # The address is absolute and given given in unqualified hex 
 # in delta units of the psect. All mappings within an object file
 # are in ascending order of addresses.
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/debug\Robot.debug.obj
-8 intcode CODE >24:C:\Users\MZ\Desktop\Robot\interrupts.c
-8 intcode CODE >483:C:\Users\MZ\Desktop\Robot\sumovore.c
-1338 intcode_body CODE >24:C:\Users\MZ\Desktop\Robot\interrupts.c
-136A intcode_body CODE >26:C:\Users\MZ\Desktop\Robot\interrupts.c
-136C intcode_body CODE >27:C:\Users\MZ\Desktop\Robot\interrupts.c
-136E intcode_body CODE >28:C:\Users\MZ\Desktop\Robot\interrupts.c
-1370 intcode_body CODE >29:C:\Users\MZ\Desktop\Robot\interrupts.c
-1372 intcode_body CODE >30:C:\Users\MZ\Desktop\Robot\interrupts.c
-1374 intcode_body CODE >31:C:\Users\MZ\Desktop\Robot\interrupts.c
-1378 intcode_body CODE >32:C:\Users\MZ\Desktop\Robot\interrupts.c
-137C intcode_body CODE >36:C:\Users\MZ\Desktop\Robot\interrupts.c
-137E intcode_body CODE >40:C:\Users\MZ\Desktop\Robot\interrupts.c
-1380 intcode_body CODE >41:C:\Users\MZ\Desktop\Robot\interrupts.c
-14F8 text47 CODE >463:C:\Users\MZ\Desktop\Robot\sumovore.c
-14F8 text47 CODE >465:C:\Users\MZ\Desktop\Robot\sumovore.c
-1508 text47 CODE >467:C:\Users\MZ\Desktop\Robot\sumovore.c
-1508 text47 CODE >469:C:\Users\MZ\Desktop\Robot\sumovore.c
-150A text47 CODE >470:C:\Users\MZ\Desktop\Robot\sumovore.c
-151C text47 CODE >472:C:\Users\MZ\Desktop\Robot\sumovore.c
-152C text47 CODE >473:C:\Users\MZ\Desktop\Robot\sumovore.c
-152E text47 CODE >474:C:\Users\MZ\Desktop\Robot\sumovore.c
-1530 text47 CODE >475:C:\Users\MZ\Desktop\Robot\sumovore.c
-1532 text47 CODE >476:C:\Users\MZ\Desktop\Robot\sumovore.c
-1544 text47 CODE >478:C:\Users\MZ\Desktop\Robot\sumovore.c
-1546 text47 CODE >479:C:\Users\MZ\Desktop\Robot\sumovore.c
-1548 text47 CODE >481:C:\Users\MZ\Desktop\Robot\sumovore.c
-1554 text47 CODE >467:C:\Users\MZ\Desktop\Robot\sumovore.c
-19E0 text46 CODE >168:C:\Users\MZ\Desktop\Robot\sumovore.c
-19E0 text46 CODE >170:C:\Users\MZ\Desktop\Robot\sumovore.c
-19E4 text46 CODE >173:C:\Users\MZ\Desktop\Robot\sumovore.c
-19EE text45 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\putch.c
-19EE text45 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\putch.c
-16E4 text44 CODE >464:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\doprnt.c
-16E4 text44 CODE >533:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\doprnt.c
-16EC text44 CODE >536:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\doprnt.c
-16EE text44 CODE >541:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\doprnt.c
-16F4 text44 CODE >536:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\doprnt.c
-18A2 text43 CODE >448:C:\Users\MZ\Desktop\Robot\sumovore.c
-18A2 text43 CODE >450:C:\Users\MZ\Desktop\Robot\sumovore.c
-18AE text43 CODE >451:C:\Users\MZ\Desktop\Robot\sumovore.c
-18B2 text43 CODE >452:C:\Users\MZ\Desktop\Robot\sumovore.c
-18B4 text43 CODE >453:C:\Users\MZ\Desktop\Robot\sumovore.c
-18B6 text43 CODE >454:C:\Users\MZ\Desktop\Robot\sumovore.c
-18B8 text43 CODE >455:C:\Users\MZ\Desktop\Robot\sumovore.c
-18BA text43 CODE >456:C:\Users\MZ\Desktop\Robot\sumovore.c
-18BC text43 CODE >457:C:\Users\MZ\Desktop\Robot\sumovore.c
-18C0 text43 CODE >458:C:\Users\MZ\Desktop\Robot\sumovore.c
-19B6 text42 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcbusy.c
-19B6 text42 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcbusy.c
-19EA text41 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcconv.c
-19EA text41 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcconv.c
-19EC text41 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcconv.c
-19A8 text40 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcread.c
-19A8 text40 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcread.c
-194C text39 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcsetch.c
-194E text39 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcsetch.c
-1960 text39 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcsetch.c
-183C text38 CODE >229:C:\Users\MZ\Desktop\Robot\sumovore.c
-183E text38 CODE >231:C:\Users\MZ\Desktop\Robot\sumovore.c
-1844 text38 CODE >232:C:\Users\MZ\Desktop\Robot\sumovore.c
-1848 text38 CODE >233:C:\Users\MZ\Desktop\Robot\sumovore.c
-1852 text38 CODE >235:C:\Users\MZ\Desktop\Robot\sumovore.c
-1080 text37 CODE >241:C:\Users\MZ\Desktop\Robot\sumovore.c
-1080 text37 CODE >243:C:\Users\MZ\Desktop\Robot\sumovore.c
-10A6 text37 CODE >244:C:\Users\MZ\Desktop\Robot\sumovore.c
-10D0 text37 CODE >245:C:\Users\MZ\Desktop\Robot\sumovore.c
-10F8 text37 CODE >246:C:\Users\MZ\Desktop\Robot\sumovore.c
-111E text37 CODE >247:C:\Users\MZ\Desktop\Robot\sumovore.c
-1142 text37 CODE >248:C:\Users\MZ\Desktop\Robot\sumovore.c
-149A text36 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-149C text36 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14A0 text36 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14A4 text36 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14AC text36 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14C2 text36 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14EA text36 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14EE text36 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14F0 text36 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14F2 text36 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14F4 text36 CODE >87:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14F4 text36 CODE >88:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-14F6 text36 CODE >89:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\ADC\adcopen.c
-1988 text35 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1open.c
-198A text35 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1open.c
-198E text35 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1open.c
-1990 text35 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1open.c
-1992 text35 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1open.c
-1996 text35 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1open.c
-1998 text35 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1open.c
-167A text34 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-167C text34 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-1680 text34 CODE >35:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-1694 text34 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-1698 text34 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-169C text34 CODE >55:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-16A6 text34 CODE >56:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-16A8 text34 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-16AA text34 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-16AE text34 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-16B0 text34 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2open.c
-1918 text33 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\Timers\t2open.c
-191A text33 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\Timers\t2open.c
-1920 text33 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\Timers\t2open.c
-1924 text33 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\Timers\t2open.c
-1926 text33 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\Timers\t2open.c
-192A text33 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\Timers\t2open.c
-192E text33 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\Timers\t2open.c
-192E text33 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\Timers\t2open.c
-1930 text33 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\Timers\t2open.c
-1932 text33 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\Timers\t2open.c
-143A text32 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-143C text32 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1440 text32 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1444 text32 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1446 text32 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1448 text32 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-144C text32 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-144E text32 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1450 text32 CODE >87:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1452 text32 CODE >88:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1454 text32 CODE >90:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1458 text32 CODE >91:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-145C text32 CODE >92:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-145C text32 CODE >93:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-145E text32 CODE >95:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1460 text32 CODE >96:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1462 text32 CODE >98:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1464 text32 CODE >100:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1466 text32 CODE >101:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1468 text32 CODE >103:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-146C text32 CODE >104:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1470 text32 CODE >105:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1470 text32 CODE >106:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1472 text32 CODE >108:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1474 text32 CODE >110:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1478 text32 CODE >111:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-147C text32 CODE >112:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-147C text32 CODE >113:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-147E text32 CODE >115:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1482 text32 CODE >116:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1486 text32 CODE >118:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1488 text32 CODE >119:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-148A text32 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-148E text32 CODE >138:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-1496 text32 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\USART\uopen.c
-15D0 text31 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1setdc.c
-15D0 text31 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1setdc.c
-15EC text31 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1setdc.c
-15F0 text31 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1setdc.c
-1608 text31 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw1setdc.c
-1596 text30 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2setdc.c
-1596 text30 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2setdc.c
-15B2 text30 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2setdc.c
-15B6 text30 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2setdc.c
-15CE text30 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\PWM\pw2setdc.c
-1934 text29 CODE >427:C:\Users\MZ\Desktop\Robot\sumovore.c
-1934 text29 CODE >429:C:\Users\MZ\Desktop\Robot\sumovore.c
-1936 text29 CODE >430:C:\Users\MZ\Desktop\Robot\sumovore.c
-1938 text29 CODE >432:C:\Users\MZ\Desktop\Robot\sumovore.c
-193A text29 CODE >433:C:\Users\MZ\Desktop\Robot\sumovore.c
-193C text29 CODE >435:C:\Users\MZ\Desktop\Robot\sumovore.c
-193E text29 CODE >436:C:\Users\MZ\Desktop\Robot\sumovore.c
-1940 text29 CODE >437:C:\Users\MZ\Desktop\Robot\sumovore.c
-1942 text29 CODE >438:C:\Users\MZ\Desktop\Robot\sumovore.c
-1944 text29 CODE >439:C:\Users\MZ\Desktop\Robot\sumovore.c
-1946 text29 CODE >440:C:\Users\MZ\Desktop\Robot\sumovore.c
-1948 text29 CODE >441:C:\Users\MZ\Desktop\Robot\sumovore.c
-194A text29 CODE >442:C:\Users\MZ\Desktop\Robot\sumovore.c
-19DA text28 CODE >147:C:\Users\MZ\Desktop\Robot\sumovore.c
-19DA text28 CODE >149:C:\Users\MZ\Desktop\Robot\sumovore.c
-19DE text28 CODE >153:C:\Users\MZ\Desktop\Robot\sumovore.c
-19D4 text27 CODE >158:C:\Users\MZ\Desktop\Robot\sumovore.c
-19D4 text27 CODE >160:C:\Users\MZ\Desktop\Robot\sumovore.c
-19D8 text27 CODE >163:C:\Users\MZ\Desktop\Robot\sumovore.c
-199A text26 CODE >133:C:\Users\MZ\Desktop\Robot\sumovore.c
-199A text26 CODE >135:C:\Users\MZ\Desktop\Robot\sumovore.c
-199C text26 CODE >136:C:\Users\MZ\Desktop\Robot\sumovore.c
-199E text26 CODE >137:C:\Users\MZ\Desktop\Robot\sumovore.c
-19A0 text26 CODE >138:C:\Users\MZ\Desktop\Robot\sumovore.c
-19A2 text26 CODE >139:C:\Users\MZ\Desktop\Robot\sumovore.c
-19A4 text26 CODE >140:C:\Users\MZ\Desktop\Robot\sumovore.c
-19A6 text26 CODE >142:C:\Users\MZ\Desktop\Robot\sumovore.c
-19CE text25 CODE >124:C:\Users\MZ\Desktop\Robot\sumovore.c
-19CE text25 CODE >126:C:\Users\MZ\Desktop\Robot\sumovore.c
-19D0 text25 CODE >127:C:\Users\MZ\Desktop\Robot\sumovore.c
-19D2 text25 CODE >128:C:\Users\MZ\Desktop\Robot\sumovore.c
-19C8 text24 CODE >178:C:\Users\MZ\Desktop\Robot\sumovore.c
-19C8 text24 CODE >180:C:\Users\MZ\Desktop\Robot\sumovore.c
-19CC text24 CODE >184:C:\Users\MZ\Desktop\Robot\sumovore.c
-19C2 text23 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\statrst.c
-19C2 text23 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\statrst.c
-19C4 text23 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\statrst.c
-19C6 text23 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\statrst.c
-1882 text22 CODE >348:C:\Users\MZ\Desktop\Robot\sumovore.c
-1882 text22 CODE >350:C:\Users\MZ\Desktop\Robot\sumovore.c
-1886 text22 CODE >352:C:\Users\MZ\Desktop\Robot\sumovore.c
-1892 text22 CODE >353:C:\Users\MZ\Desktop\Robot\sumovore.c
-1894 text22 CODE >354:C:\Users\MZ\Desktop\Robot\sumovore.c
-1896 text22 CODE >355:C:\Users\MZ\Desktop\Robot\sumovore.c
-1898 text22 CODE >356:C:\Users\MZ\Desktop\Robot\sumovore.c
-189A text22 CODE >357:C:\Users\MZ\Desktop\Robot\sumovore.c
-189C text22 CODE >358:C:\Users\MZ\Desktop\Robot\sumovore.c
-18A0 text22 CODE >359:C:\Users\MZ\Desktop\Robot\sumovore.c
-1200 text21 CODE >306:C:\Users\MZ\Desktop\Robot\sumovore.c
-1200 text21 CODE >308:C:\Users\MZ\Desktop\Robot\sumovore.c
-1220 text21 CODE >309:C:\Users\MZ\Desktop\Robot\sumovore.c
-1224 text21 CODE >311:C:\Users\MZ\Desktop\Robot\sumovore.c
-1230 text21 CODE >312:C:\Users\MZ\Desktop\Robot\sumovore.c
-1232 text21 CODE >313:C:\Users\MZ\Desktop\Robot\sumovore.c
-1234 text21 CODE >314:C:\Users\MZ\Desktop\Robot\sumovore.c
-1236 text21 CODE >315:C:\Users\MZ\Desktop\Robot\sumovore.c
-1238 text21 CODE >316:C:\Users\MZ\Desktop\Robot\sumovore.c
-123A text21 CODE >317:C:\Users\MZ\Desktop\Robot\sumovore.c
-123C text21 CODE >319:C:\Users\MZ\Desktop\Robot\sumovore.c
-123E text21 CODE >320:C:\Users\MZ\Desktop\Robot\sumovore.c
-1250 text21 CODE >322:C:\Users\MZ\Desktop\Robot\sumovore.c
-1260 text21 CODE >323:C:\Users\MZ\Desktop\Robot\sumovore.c
-126C text21 CODE >324:C:\Users\MZ\Desktop\Robot\sumovore.c
-126E text21 CODE >325:C:\Users\MZ\Desktop\Robot\sumovore.c
-1270 text21 CODE >326:C:\Users\MZ\Desktop\Robot\sumovore.c
-1272 text21 CODE >327:C:\Users\MZ\Desktop\Robot\sumovore.c
-1284 text21 CODE >329:C:\Users\MZ\Desktop\Robot\sumovore.c
-1286 text21 CODE >330:C:\Users\MZ\Desktop\Robot\sumovore.c
-1288 text21 CODE >332:C:\Users\MZ\Desktop\Robot\sumovore.c
-1294 text21 CODE >317:C:\Users\MZ\Desktop\Robot\sumovore.c
-1294 text21 CODE >333:C:\Users\MZ\Desktop\Robot\sumovore.c
-12A6 text21 CODE >334:C:\Users\MZ\Desktop\Robot\sumovore.c
-18FC text20 CODE >404:C:\Users\MZ\Desktop\Robot\sumovore.c
-18FC text20 CODE >407:C:\Users\MZ\Desktop\Robot\sumovore.c
-1908 text20 CODE >408:C:\Users\MZ\Desktop\Robot\sumovore.c
-190A text20 CODE >409:C:\Users\MZ\Desktop\Robot\sumovore.c
-190C text20 CODE >410:C:\Users\MZ\Desktop\Robot\sumovore.c
-190E text20 CODE >411:C:\Users\MZ\Desktop\Robot\sumovore.c
-1910 text20 CODE >412:C:\Users\MZ\Desktop\Robot\sumovore.c
-1912 text20 CODE >413:C:\Users\MZ\Desktop\Robot\sumovore.c
-1916 text20 CODE >414:C:\Users\MZ\Desktop\Robot\sumovore.c
-18C2 text19 CODE >388:C:\Users\MZ\Desktop\Robot\sumovore.c
-18C2 text19 CODE >391:C:\Users\MZ\Desktop\Robot\sumovore.c
-18C4 text19 CODE >392:C:\Users\MZ\Desktop\Robot\sumovore.c
-18D0 text19 CODE >393:C:\Users\MZ\Desktop\Robot\sumovore.c
-18D2 text19 CODE >394:C:\Users\MZ\Desktop\Robot\sumovore.c
-18D4 text19 CODE >395:C:\Users\MZ\Desktop\Robot\sumovore.c
-18D6 text19 CODE >396:C:\Users\MZ\Desktop\Robot\sumovore.c
-18D8 text19 CODE >397:C:\Users\MZ\Desktop\Robot\sumovore.c
-18DA text19 CODE >398:C:\Users\MZ\Desktop\Robot\sumovore.c
-18DE text19 CODE >399:C:\Users\MZ\Desktop\Robot\sumovore.c
-18E0 text18 CODE >369:C:\Users\MZ\Desktop\Robot\sumovore.c
-18E0 text18 CODE >371:C:\Users\MZ\Desktop\Robot\sumovore.c
-18EC text18 CODE >372:C:\Users\MZ\Desktop\Robot\sumovore.c
-18EE text18 CODE >373:C:\Users\MZ\Desktop\Robot\sumovore.c
-18F0 text18 CODE >374:C:\Users\MZ\Desktop\Robot\sumovore.c
-18F2 text18 CODE >375:C:\Users\MZ\Desktop\Robot\sumovore.c
-18F4 text18 CODE >376:C:\Users\MZ\Desktop\Robot\sumovore.c
-18F6 text18 CODE >377:C:\Users\MZ\Desktop\Robot\sumovore.c
-18FA text18 CODE >378:C:\Users\MZ\Desktop\Robot\sumovore.c
-1962 text17 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\isbor.c
-1962 text17 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\isbor.c
-1966 text17 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\isbor.c
-196A text17 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\isbor.c
-196E text17 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\isbor.c
-1972 text17 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\isbor.c
-1818 text16 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\ispor.c
-1818 text16 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\ispor.c
-181C text16 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\ispor.c
-1820 text16 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\ispor.c
-1824 text16 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\ispor.c
-1828 text16 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\ispor.c
-182C text16 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\ispor.c
-1830 text16 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\ispor.c
-1834 text16 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\ispor.c
-1838 text16 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\ispor.c
-17F4 text15 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\iswdtto.c
-17F4 text15 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\iswdtto.c
-17F8 text15 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\iswdtto.c
-17FC text15 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\iswdtto.c
-1800 text15 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\iswdtto.c
-1804 text15 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\iswdtto.c
-1808 text15 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\iswdtto.c
-180C text15 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\iswdtto.c
-1810 text15 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\iswdtto.c
-1814 text15 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.35\sources\pic18\plib\reset\iswdtto.c
-1556 text14 CODE >281:C:\Users\MZ\Desktop\Robot\sumovore.c
-1556 text14 CODE >283:C:\Users\MZ\Desktop\Robot\sumovore.c
-1566 text14 CODE >286:C:\Users\MZ\Desktop\Robot\sumovore.c
-1576 text14 CODE >288:C:\Users\MZ\Desktop\Robot\sumovore.c
-1586 text14 CODE >292:C:\Users\MZ\Desktop\Robot\sumovore.c
-1590 text14 CODE >296:C:\Users\MZ\Desktop\Robot\sumovore.c
-17CE text13 CODE >18:C:\Users\MZ\Desktop\Robot\Common/osc.c
-17CE text13 CODE >21:C:\Users\MZ\Desktop\Robot\Common/osc.c
-17D0 text13 CODE >22:C:\Users\MZ\Desktop\Robot\Common/osc.c
-17D2 text13 CODE >23:C:\Users\MZ\Desktop\Robot\Common/osc.c
-17D4 text13 CODE >25:C:\Users\MZ\Desktop\Robot\Common/osc.c
-17D6 text13 CODE >27:C:\Users\MZ\Desktop\Robot\Common/osc.c
-12A8 text12 CODE >65:C:\Users\MZ\Desktop\Robot\sumovore.c
-12A8 text12 CODE >67:C:\Users\MZ\Desktop\Robot\sumovore.c
-12B2 text12 CODE >68:C:\Users\MZ\Desktop\Robot\sumovore.c
-12B4 text12 CODE >69:C:\Users\MZ\Desktop\Robot\sumovore.c
-12B6 text12 CODE >70:C:\Users\MZ\Desktop\Robot\sumovore.c
-12B8 text12 CODE >72:C:\Users\MZ\Desktop\Robot\sumovore.c
-12BC text12 CODE >73:C:\Users\MZ\Desktop\Robot\sumovore.c
-12C0 text12 CODE >76:C:\Users\MZ\Desktop\Robot\sumovore.c
-12CE text12 CODE >82:C:\Users\MZ\Desktop\Robot\sumovore.c
-12D2 text12 CODE >83:C:\Users\MZ\Desktop\Robot\sumovore.c
-12D6 text12 CODE >85:C:\Users\MZ\Desktop\Robot\sumovore.c
-12DA text12 CODE >87:C:\Users\MZ\Desktop\Robot\sumovore.c
-12DE text12 CODE >89:C:\Users\MZ\Desktop\Robot\sumovore.c
-12E2 text12 CODE >90:C:\Users\MZ\Desktop\Robot\sumovore.c
-12E6 text12 CODE >91:C:\Users\MZ\Desktop\Robot\sumovore.c
-12EA text12 CODE >94:C:\Users\MZ\Desktop\Robot\sumovore.c
-12EE text12 CODE >98:C:\Users\MZ\Desktop\Robot\sumovore.c
-12FC text12 CODE >101:C:\Users\MZ\Desktop\Robot\sumovore.c
-12FE text12 CODE >102:C:\Users\MZ\Desktop\Robot\sumovore.c
-1300 text12 CODE >103:C:\Users\MZ\Desktop\Robot\sumovore.c
-1302 text12 CODE >104:C:\Users\MZ\Desktop\Robot\sumovore.c
-1304 text12 CODE >109:C:\Users\MZ\Desktop\Robot\sumovore.c
-130A text12 CODE >110:C:\Users\MZ\Desktop\Robot\sumovore.c
-1310 text12 CODE >112:C:\Users\MZ\Desktop\Robot\sumovore.c
-1316 text12 CODE >113:C:\Users\MZ\Desktop\Robot\sumovore.c
-1322 text12 CODE >116:C:\Users\MZ\Desktop\Robot\sumovore.c
-132E text12 CODE >117:C:\Users\MZ\Desktop\Robot\sumovore.c
-1336 text12 CODE >119:C:\Users\MZ\Desktop\Robot\sumovore.c
-19E6 text11 CODE >47:C:\Users\MZ\Desktop\Robot\interrupts.c
-19E6 text11 CODE >49:C:\Users\MZ\Desktop\Robot\interrupts.c
-1144 text10 CODE >188:C:\Users\MZ\Desktop\Robot\sumovore.c
-1146 text10 CODE >192:C:\Users\MZ\Desktop\Robot\sumovore.c
-114A text10 CODE >194:C:\Users\MZ\Desktop\Robot\sumovore.c
-1170 text10 CODE >195:C:\Users\MZ\Desktop\Robot\sumovore.c
-1174 text10 CODE >197:C:\Users\MZ\Desktop\Robot\sumovore.c
-1178 text10 CODE >198:C:\Users\MZ\Desktop\Robot\sumovore.c
-1180 text10 CODE >200:C:\Users\MZ\Desktop\Robot\sumovore.c
-1198 text10 CODE >202:C:\Users\MZ\Desktop\Robot\sumovore.c
-119E text10 CODE >204:C:\Users\MZ\Desktop\Robot\sumovore.c
-11AA text10 CODE >205:C:\Users\MZ\Desktop\Robot\sumovore.c
-11B4 text10 CODE >206:C:\Users\MZ\Desktop\Robot\sumovore.c
-11B6 text10 CODE >207:C:\Users\MZ\Desktop\Robot\sumovore.c
-11CE text10 CODE >208:C:\Users\MZ\Desktop\Robot\sumovore.c
-11D0 text10 CODE >211:C:\Users\MZ\Desktop\Robot\sumovore.c
-11DC text10 CODE >212:C:\Users\MZ\Desktop\Robot\sumovore.c
-11E6 text10 CODE >213:C:\Users\MZ\Desktop\Robot\sumovore.c
-11E8 text10 CODE >214:C:\Users\MZ\Desktop\Robot\sumovore.c
-17A8 text9 CODE >40:C:\Users\MZ\Desktop\Robot\motor_control.c
-17A8 text9 CODE >42:C:\Users\MZ\Desktop\Robot\motor_control.c
-17BA text9 CODE >43:C:\Users\MZ\Desktop\Robot\motor_control.c
-17CC text9 CODE >44:C:\Users\MZ\Desktop\Robot\motor_control.c
-1782 text8 CODE >56:C:\Users\MZ\Desktop\Robot\motor_control.c
-1782 text8 CODE >58:C:\Users\MZ\Desktop\Robot\motor_control.c
-1794 text8 CODE >59:C:\Users\MZ\Desktop\Robot\motor_control.c
-17A6 text8 CODE >60:C:\Users\MZ\Desktop\Robot\motor_control.c
-175C text7 CODE >51:C:\Users\MZ\Desktop\Robot\motor_control.c
-175C text7 CODE >53:C:\Users\MZ\Desktop\Robot\motor_control.c
-176E text7 CODE >54:C:\Users\MZ\Desktop\Robot\motor_control.c
-1780 text7 CODE >55:C:\Users\MZ\Desktop\Robot\motor_control.c
-1736 text6 CODE >46:C:\Users\MZ\Desktop\Robot\motor_control.c
-1736 text6 CODE >48:C:\Users\MZ\Desktop\Robot\motor_control.c
-1748 text6 CODE >49:C:\Users\MZ\Desktop\Robot\motor_control.c
-175A text6 CODE >50:C:\Users\MZ\Desktop\Robot\motor_control.c
-1710 text5 CODE >61:C:\Users\MZ\Desktop\Robot\motor_control.c
-1710 text5 CODE >63:C:\Users\MZ\Desktop\Robot\motor_control.c
-1722 text5 CODE >64:C:\Users\MZ\Desktop\Robot\motor_control.c
-1734 text5 CODE >65:C:\Users\MZ\Desktop\Robot\motor_control.c
-16B2 text4 CODE >31:C:\Users\MZ\Desktop\Robot\motor_control.c
-16B2 text4 CODE >33:C:\Users\MZ\Desktop\Robot\motor_control.c
-16BC text4 CODE >34:C:\Users\MZ\Desktop\Robot\motor_control.c
-16C6 text4 CODE >35:C:\Users\MZ\Desktop\Robot\motor_control.c
-16D0 text4 CODE >36:C:\Users\MZ\Desktop\Robot\motor_control.c
-16DA text4 CODE >37:C:\Users\MZ\Desktop\Robot\motor_control.c
-16E2 text4 CODE >38:C:\Users\MZ\Desktop\Robot\motor_control.c
-1860 text3 CODE >218:C:\Users\MZ\Desktop\Robot\sumovore.c
-1860 text3 CODE >220:C:\Users\MZ\Desktop\Robot\sumovore.c
-186C text3 CODE >221:C:\Users\MZ\Desktop\Robot\sumovore.c
-1878 text3 CODE >222:C:\Users\MZ\Desktop\Robot\sumovore.c
-187A text3 CODE >223:C:\Users\MZ\Desktop\Robot\sumovore.c
-187C text3 CODE >224:C:\Users\MZ\Desktop\Robot\sumovore.c
-187E text3 CODE >225:C:\Users\MZ\Desktop\Robot\sumovore.c
-1880 text3 CODE >227:C:\Users\MZ\Desktop\Robot\sumovore.c
-1642 text2 CODE >11:C:\Users\MZ\Desktop\Robot\motor_control.c
-1642 text2 CODE >14:C:\Users\MZ\Desktop\Robot\motor_control.c
-1644 text2 CODE >22:C:\Users\MZ\Desktop\Robot\motor_control.c
-1648 text2 CODE >23:C:\Users\MZ\Desktop\Robot\motor_control.c
-164A text2 CODE >25:C:\Users\MZ\Desktop\Robot\motor_control.c
-164E text2 CODE >28:C:\Users\MZ\Desktop\Robot\motor_control.c
-1650 text2 CODE >14:C:\Users\MZ\Desktop\Robot\motor_control.c
-13BC text1 CODE >255:C:\Users\MZ\Desktop\Robot\sumovore.c
-13BC text1 CODE >257:C:\Users\MZ\Desktop\Robot\sumovore.c
-13D2 text1 CODE >258:C:\Users\MZ\Desktop\Robot\sumovore.c
-13EA text1 CODE >259:C:\Users\MZ\Desktop\Robot\sumovore.c
-1404 text1 CODE >260:C:\Users\MZ\Desktop\Robot\sumovore.c
-1420 text1 CODE >261:C:\Users\MZ\Desktop\Robot\sumovore.c
-1438 text1 CODE >262:C:\Users\MZ\Desktop\Robot\sumovore.c
-160A text0 CODE >10:C:\Users\MZ\Desktop\Robot\main.c
-160A text0 CODE >13:C:\Users\MZ\Desktop\Robot\main.c
-160E text0 CODE >19:C:\Users\MZ\Desktop\Robot\main.c
-161A text0 CODE >20:C:\Users\MZ\Desktop\Robot\main.c
-161C text0 CODE >22:C:\Users\MZ\Desktop\Robot\main.c
-1624 text0 CODE >27:C:\Users\MZ\Desktop\Robot\main.c
-1628 text0 CODE >28:C:\Users\MZ\Desktop\Robot\main.c
-162C text0 CODE >33:C:\Users\MZ\Desktop\Robot\main.c
-1630 text0 CODE >34:C:\Users\MZ\Desktop\Robot\main.c
-1632 text0 CODE >35:C:\Users\MZ\Desktop\Robot\main.c
-1640 text0 CODE >25:C:\Users\MZ\Desktop\Robot\main.c
-1976 cinit CODE >1573:C:\Users\MZ\AppData\Local\Temp\sbuc.
-1976 cinit CODE >1575:C:\Users\MZ\AppData\Local\Temp\sbuc.
-1976 cinit CODE >1578:C:\Users\MZ\AppData\Local\Temp\sbuc.
-1976 cinit CODE >1595:C:\Users\MZ\AppData\Local\Temp\sbuc.
-1978 cinit CODE >1596:C:\Users\MZ\AppData\Local\Temp\sbuc.
-197A cinit CODE >1597:C:\Users\MZ\AppData\Local\Temp\sbuc.
-197C cinit CODE >1598:C:\Users\MZ\AppData\Local\Temp\sbuc.
-197E cinit CODE >1604:C:\Users\MZ\AppData\Local\Temp\sbuc.
-197E cinit CODE >1606:C:\Users\MZ\AppData\Local\Temp\sbuc.
-1980 cinit CODE >1607:C:\Users\MZ\AppData\Local\Temp\sbuc.
-1982 cinit CODE >1608:C:\Users\MZ\AppData\Local\Temp\sbuc.
-1984 cinit CODE >1609:C:\Users\MZ\AppData\Local\Temp\sbuc.
+"C:\Users\Student\Desktop\Robot\interrupts.c":24 2 intcode CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":483 2 intcode CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":188 1080 text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":192 1084 text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":194 108C text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":195 10BA text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":197 10CE text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":198 10D6 text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":200 10DE text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":202 10F6 text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":204 10FA text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":205 1106 text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":206 110E text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":207 1110 text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":211 1126 text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":212 1132 text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":213 113A text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":214 113C text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":216 1152 text10 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":241 1154 text37 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":243 1154 text37 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":244 117A text37 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":245 11A4 text37 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":246 11CC text37 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":247 11F2 text37 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":248 1216 text37 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":306 1218 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":308 1218 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":309 1238 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":311 123C text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":312 1248 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":313 124A text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":314 124C text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":315 124E text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":316 1250 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":317 1252 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":319 1254 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":320 1256 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":322 1268 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":323 1278 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":324 1288 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":325 128A text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":326 128C text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":327 128E text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":329 12A0 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":330 12A2 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":332 12A4 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":317 12B4 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":333 12B4 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":334 12C6 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":317 12C8 text21 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":65 12CA text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":67 12CA text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":68 12D4 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":69 12D6 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":70 12D8 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":72 12DA text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":73 12DE text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":76 12E2 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":82 12F0 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":83 12F4 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":85 12F8 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":87 12FC text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":89 1300 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":90 1304 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":91 1308 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":94 130C text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":98 1310 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":101 1326 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":102 1328 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":103 132A text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":104 132C text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":109 132E text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":110 1334 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":112 133A text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":113 1340 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":116 134C text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":117 1358 text12 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":119 1360 text12 CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":24 1362 intcode_body CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":26 1390 intcode_body CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":27 1392 intcode_body CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":28 1394 intcode_body CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":29 1396 intcode_body CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":30 1398 intcode_body CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":31 139A intcode_body CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":32 139E intcode_body CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":36 13A6 intcode_body CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":40 13A8 intcode_body CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":41 13AA intcode_body CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":255 13E4 text1 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":257 13E4 text1 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":258 13FA text1 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":259 1412 text1 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":260 142C text1 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":261 1448 text1 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":262 1460 text1 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":73 1462 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":75 1466 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":76 146A text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":78 146E text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":79 1470 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":81 1472 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":83 1476 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":84 1478 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":87 147A text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":88 147C text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":90 147E text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":91 1482 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":92 1486 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":93 1486 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":95 1488 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":96 148A text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":98 148C text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":100 148E text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":101 1490 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":103 1492 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":104 1496 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":105 149A text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":106 149A text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":108 149C text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":110 149E text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":111 14A2 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":112 14A6 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":113 14A6 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":115 14A8 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":116 14AC text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":118 14BA text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":119 14BC text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":137 14BE text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":138 14C2 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":139 14C8 text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\USART\uopen.c":143 14CA text32 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":463 14CC text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":465 14CC text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":467 14DC text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":469 14DC text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":470 14DE text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":472 14F0 text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":473 1500 text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":474 1502 text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":475 1504 text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":476 1506 text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":478 1518 text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":479 151A text47 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":481 151C text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":68 152E text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":72 1532 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":73 1536 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":75 153A text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":77 1542 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":80 1558 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":82 1580 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":84 1584 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":85 1586 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":86 1588 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":87 158A text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":88 158A text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcopen.c":89 158C text36 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":281 158E text14 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":283 158E text14 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":286 159E text14 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":288 15AE text14 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":292 15BE text14 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":296 15C8 text14 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":297 15CC text14 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":18 15CE text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":33 15D2 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":35 15D6 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":36 15EC text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":38 15F0 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":55 15F8 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":56 1602 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":70 1604 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":71 1606 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":72 160A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2open.c":80 160C text34 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":18 160E text2 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":22 160E text2 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":30 1610 text2 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":31 1614 text2 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":34 1616 text2 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":35 161A text2 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":36 161E text2 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":22 1620 text2 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":39 1648 text2 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2setdc.c":7 164A text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2setdc.c":12 164A text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2setdc.c":15 1666 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2setdc.c":18 166A text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw2setdc.c":19 1682 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1setdc.c":7 1684 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1setdc.c":12 1684 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1setdc.c":15 16A0 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1setdc.c":18 16A4 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1setdc.c":19 16BC text31 CODE
+"C:\Users\Student\Desktop\Robot\main.c":10 16BE text0 CODE
+"C:\Users\Student\Desktop\Robot\main.c":13 16BE text0 CODE
+"C:\Users\Student\Desktop\Robot\main.c":19 16C2 text0 CODE
+"C:\Users\Student\Desktop\Robot\main.c":20 16CE text0 CODE
+"C:\Users\Student\Desktop\Robot\main.c":22 16D0 text0 CODE
+"C:\Users\Student\Desktop\Robot\main.c":27 16D8 text0 CODE
+"C:\Users\Student\Desktop\Robot\main.c":28 16DC text0 CODE
+"C:\Users\Student\Desktop\Robot\main.c":33 16E0 text0 CODE
+"C:\Users\Student\Desktop\Robot\main.c":34 16E4 text0 CODE
+"C:\Users\Student\Desktop\Robot\main.c":35 16E6 text0 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":73 16F6 text4 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":76 16F6 text4 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":77 1700 text4 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":78 170A text4 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":79 1714 text4 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":80 171E text4 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":81 1728 text4 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":83 172C text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\doprnt.c":464 172E text44 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\doprnt.c":542 172E text44 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\doprnt.c":545 1736 text44 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\doprnt.c":550 1738 text44 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\doprnt.c":545 173E text44 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\doprnt.c":1550 1760 text44 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":129 1762 text5 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":131 1762 text5 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":132 1778 text5 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":133 178E text5 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":114 1790 text6 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":116 1790 text6 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":117 17A6 text6 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":118 17BC text6 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":119 17BE text7 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":121 17BE text7 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":122 17D4 text7 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":123 17EA text7 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":124 17EC text8 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":126 17EC text8 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":127 1802 text8 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":128 1818 text8 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":108 181A text9 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":110 181A text9 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":111 1830 text9 CODE
+"C:\Users\Student\Desktop\Robot\motor_control.c":112 1846 text9 CODE
+"C:\Users\Student\Desktop\Robot\Common/osc.c":18 1848 text13 CODE
+"C:\Users\Student\Desktop\Robot\Common/osc.c":21 1848 text13 CODE
+"C:\Users\Student\Desktop\Robot\Common/osc.c":22 184A text13 CODE
+"C:\Users\Student\Desktop\Robot\Common/osc.c":23 184C text13 CODE
+"C:\Users\Student\Desktop\Robot\Common/osc.c":25 184E text13 CODE
+"C:\Users\Student\Desktop\Robot\Common/osc.c":27 1850 text13 CODE
+"C:\Users\Student\Desktop\Robot\Common/osc.c":28 186E text13 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":229 1870 text38 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":231 1874 text38 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":232 187A text38 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":233 187E text38 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":235 1888 text38 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":236 1894 text38 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":218 1896 text3 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":220 1896 text3 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":221 18A2 text3 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":222 18AE text3 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":223 18B0 text3 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":224 18B2 text3 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":225 18B4 text3 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":227 18B6 text3 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":348 18B8 text22 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":350 18B8 text22 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":352 18BC text22 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":353 18C8 text22 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":354 18CA text22 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":355 18CC text22 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":356 18CE text22 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":357 18D0 text22 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":358 18D2 text22 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":359 18D6 text22 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":448 18D8 text43 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":450 18D8 text43 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":451 18E4 text43 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":452 18E8 text43 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":453 18EA text43 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":454 18EC text43 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":455 18EE text43 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":456 18F0 text43 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":457 18F2 text43 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":458 18F6 text43 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":388 18F8 text19 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":391 18F8 text19 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":392 18FA text19 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":393 1906 text19 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":394 1908 text19 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":395 190A text19 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":396 190C text19 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":397 190E text19 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":398 1910 text19 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":399 1914 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\Timers\t2open.c":17 1916 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\Timers\t2open.c":19 191A text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\Timers\t2open.c":22 1920 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\Timers\t2open.c":23 1924 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\Timers\t2open.c":25 1926 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\Timers\t2open.c":26 192A text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\Timers\t2open.c":27 192E text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\Timers\t2open.c":28 192E text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\Timers\t2open.c":30 1930 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\Timers\t2open.c":31 1932 text33 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":369 1934 text18 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":371 1934 text18 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":372 1940 text18 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":373 1942 text18 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":374 1944 text18 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":375 1946 text18 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":376 1948 text18 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":377 194A text18 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":378 194E text18 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":404 1950 text20 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":407 1950 text20 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":408 195C text20 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":409 195E text20 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":410 1960 text20 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":411 1962 text20 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":412 1964 text20 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":413 1966 text20 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":414 196A text20 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":427 196C text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":429 196C text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":430 196E text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":432 1970 text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":433 1972 text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":435 1974 text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":436 1976 text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":437 1978 text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":438 197A text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":439 197C text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":440 197E text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":441 1980 text29 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":442 1982 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcsetch.c":30 1984 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcsetch.c":34 1988 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcsetch.c":36 199A text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\iswdtto.c":15 199C text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\iswdtto.c":17 199C text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\iswdtto.c":19 199E text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\iswdtto.c":23 19A2 text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\iswdtto.c":25 19A4 text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\iswdtto.c":27 19A8 text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\iswdtto.c":39 19AC text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\iswdtto.c":40 19AE text15 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\ispor.c":10 19B0 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\ispor.c":12 19B0 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\ispor.c":14 19B2 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\ispor.c":18 19B6 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\ispor.c":22 19B8 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\ispor.c":25 19BC text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\ispor.c":43 19C0 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\ispor.c":44 19C2 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1open.c":8 19C4 text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1open.c":11 19C8 text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1open.c":13 19CC text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1open.c":15 19CE text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1open.c":16 19D0 text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1open.c":17 19D4 text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\PWM\pw1open.c":19 19D6 text35 CODE
+"C:\Users\Student\AppData\Local\Temp\s3t8.":1578 19D8 cinit CODE
+"C:\Users\Student\AppData\Local\Temp\s3t8.":1580 19D8 cinit CODE
+"C:\Users\Student\AppData\Local\Temp\s3t8.":1583 19D8 cinit CODE
+"C:\Users\Student\AppData\Local\Temp\s3t8.":1599 19D8 cinit CODE
+"C:\Users\Student\AppData\Local\Temp\s3t8.":1600 19DA cinit CODE
+"C:\Users\Student\AppData\Local\Temp\s3t8.":1601 19DC cinit CODE
+"C:\Users\Student\AppData\Local\Temp\s3t8.":1602 19DE cinit CODE
+"C:\Users\Student\AppData\Local\Temp\s3t8.":1608 19E0 cinit CODE
+"C:\Users\Student\AppData\Local\Temp\s3t8.":1609 19E0 cinit CODE
+"C:\Users\Student\AppData\Local\Temp\s3t8.":1610 19E2 cinit CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\isbor.c":12 19E6 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\isbor.c":14 19E6 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\isbor.c":16 19E8 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\isbor.c":18 19EC text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\isbor.c":20 19F0 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\isbor.c":21 19F2 text17 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":133 19F4 text26 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":135 19F4 text26 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":136 19F6 text26 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":137 19F8 text26 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":138 19FA text26 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":139 19FC text26 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":140 19FE text26 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":142 1A00 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcbusy.c":26 1A02 text42 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcbusy.c":28 1A02 text42 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcbusy.c":29 1A0C text42 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcread.c":24 1A0E text40 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcread.c":26 1A0E text40 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcread.c":27 1A16 text40 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\statrst.c":10 1A18 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\statrst.c":12 1A18 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\statrst.c":15 1A1A text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\reset\statrst.c":17 1A1C text23 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":178 1A1E text24 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":180 1A1E text24 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":184 1A22 text24 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":124 1A24 text25 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":126 1A24 text25 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":127 1A26 text25 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":128 1A28 text25 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":158 1A2A text27 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":160 1A2A text27 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":163 1A2E text27 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":147 1A30 text28 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":149 1A30 text28 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":153 1A34 text28 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":168 1A36 text46 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":170 1A36 text46 CODE
+"C:\Users\Student\Desktop\Robot\sumovore.c":173 1A3A text46 CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":47 1A3C text11 CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":49 1A3C text11 CODE
+"C:\Users\Student\Desktop\Robot\interrupts.c":50 1A3E text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcconv.c":22 1A40 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcconv.c":24 1A40 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\pic18\plib\ADC\adcconv.c":25 1A42 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\putch.c":7 1A44 text45 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.31\sources\common\putch.c":9 1A44 text45 CODE
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -546,555 +552,547 @@ $dist/default/debug\Robot.debug.obj
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-_spin_left 17A8 0 CODE 0 text9 dist/default/debug\Robot.debug.obj
-_STKPTRbits FFC 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_STKFULtask 18C2 0 CODE 0 text19 dist/default/debug\Robot.debug.obj
-__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug\Robot.debug.obj
-__Hspace_0 30000E 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hspace_1 22 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hspace_2 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_StatusReset 19C2 0 CODE 0 text23 dist/default/debug\Robot.debug.obj
-__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\Robot.debug.obj
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-__size_of_openLVD 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Robot.debug.obj
-__end_of_LVtrap 18C2 0 CODE 0 text43 dist/default/debug\Robot.debug.obj
-?_adc 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-SetDCPWM1@DCycle 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Lsmallconst 1000 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
-set_motor_speed@motor_speed 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-_TMR2 FCC 0 ABS 0 - dist/default/debug\Robot.debug.obj
-___sp 0 0 STACK 2 stack C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-_main 160A 0 CODE 0 text0 dist/default/debug\Robot.debug.obj
-btemp 21 0 COMRAM 1 temp dist/default/debug\Robot.debug.obj
-__end_of_ConvertADC 19EE 0 CODE 0 text41 dist/default/debug\Robot.debug.obj
-_set_motor_speed 1144 0 CODE 0 text10 dist/default/debug\Robot.debug.obj
-_SeeLine 1F 0 COMRAM 1 bssCOMRAM dist/default/debug\Robot.debug.obj
-start 16 0 CODE 0 init C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-_spin_right 1782 0 CODE 0 text8 dist/default/debug\Robot.debug.obj
-__size_of_main 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Robot.debug.obj
-__end_of_openPORTCforPWM 19A8 0 CODE 0 text26 dist/default/debug\Robot.debug.obj
-gtrap@count F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-_straight_fwd 175C 0 CODE 0 text7 dist/default/debug\Robot.debug.obj
-_BusyADC 19B6 0 CODE 0 text42 dist/default/debug\Robot.debug.obj
-__size_of_turn_right 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hpowerup 16 0 CODE 0 powerup dist/default/debug\Robot.debug.obj
-printf@c 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-printf@f F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__accesstop 80 0 ABS 0 - C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-intlevel0 0 0 CODE 0 text C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-intlevel1 0 0 CODE 0 text C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-intlevel2 0 0 CODE 0 text C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-intlevel3 0 0 CODE 0 text C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-__end_of_STKFULtask 18E0 0 CODE 0 text19 dist/default/debug\Robot.debug.obj
-__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Robot.debug.obj
-_OSCCONbits FD3 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Robot.debug.obj
-__size_of_OpenTimer2 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_SetDCPWM1 160A 0 CODE 0 text31 dist/default/debug\Robot.debug.obj
-__end_of_SetDCPWM2 15D0 0 CODE 0 text30 dist/default/debug\Robot.debug.obj
+__end_of_isPOR 19C4 0 CODE 0 text16 dist/default/debug\Robot.debug.obj
+PORtask@count2 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__size_of_lvd_flag_set 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_isPOR 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_OpenUSART 14CC 0 CODE 0 text32 dist/default/debug\Robot.debug.obj
+__end_of_follow_simple_curves 172E 0 CODE 0 text4 dist/default/debug\Robot.debug.obj
+_PR2 FCB 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__S0 1A46 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__S1 25 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_RESETtask 196C 0 CODE 0 text20 dist/default/debug\Robot.debug.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/debug\Robot.debug.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/debug\Robot.debug.obj
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_adc 1870 0 CODE 0 text38 dist/default/debug\Robot.debug.obj
 __size_of_SetDCPWM1 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
 __size_of_SetDCPWM2 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hifardata 0 0 CODE 0 ifardata dist/default/debug\Robot.debug.obj
-__Hclrtext 0 0 ABS 0 clrtext dist/default/debug\Robot.debug.obj
-SetChanADC@channel 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__size_of_straight_fwd 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_follow_simple_curves 16B2 0 CODE 0 text4 dist/default/debug\Robot.debug.obj
-_ADCON0 FC2 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_ADCON1 FC1 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_ADCON2 FC0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_ADRESH FC4 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_ADRESL FC3 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_BORtask 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_spin_right 17A8 0 CODE 0 text8 dist/default/debug\Robot.debug.obj
-___inthi_sp 0 0 STACK 2 stack C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-_openPORTCforPWM 199A 0 CODE 0 text26 dist/default/debug\Robot.debug.obj
-___intlo_sp 0 0 STACK 2 stack C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-__end_of_reset_codes 1596 0 CODE 0 text14 dist/default/debug\Robot.debug.obj
-_SetDCPWM1 15D0 0 CODE 0 text31 dist/default/debug\Robot.debug.obj
-_SetDCPWM2 1596 0 CODE 0 text30 dist/default/debug\Robot.debug.obj
-_CCPR1L FBE 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_CCPR2L FBB 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_ReadADC 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_openPORTCforUSART 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Robot.debug.obj
-__end_of_openLVD 194C 0 CODE 0 text29 dist/default/debug\Robot.debug.obj
-_set_osc_32MHz 17CE 0 CODE 0 text13 dist/default/debug\Robot.debug.obj
-__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Robot.debug.obj
-SetDCPWM1@dutycycle F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug\Robot.debug.obj
-?_printf F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Hintcodelo 16 0 CODE 0 intcodelo dist/default/debug\Robot.debug.obj
-__size_of_set_motor_speed 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_straight_fwd 1782 0 CODE 0 text7 dist/default/debug\Robot.debug.obj
-__size_of_isWDTTO 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_RESETtask 1918 0 CODE 0 text20 dist/default/debug\Robot.debug.obj
-__size_of_RESETtask 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_lvd_flag 20 0 COMRAM 1 bssCOMRAM dist/default/debug\Robot.debug.obj
-_OSCTUNEbits F9B 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_initialization 12A8 0 CODE 0 text12 dist/default/debug\Robot.debug.obj
-__size_of_gtrap 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_isBOR 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_isPOR 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_putch 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_SetChanADC 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_LVtrap 18A2 0 CODE 0 text43 dist/default/debug\Robot.debug.obj
-__Lintcodelo 16 0 CODE 0 intcodelo dist/default/debug\Robot.debug.obj
-_RESETtask 18FC 0 CODE 0 text20 dist/default/debug\Robot.debug.obj
-__CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-start_initialization 1976 0 CODE 0 cinit dist/default/debug\Robot.debug.obj
-__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Robot.debug.obj
-_lvd_flag_set 19E6 0 CODE 0 text11 dist/default/debug\Robot.debug.obj
-_TRISBbits F93 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_TRISCbits F94 0 ABS 0 - dist/default/debug\Robot.debug.obj
-set_motor_speed@duty_cycle 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-set_motor_speed@the_motor 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-___rparam_used 1 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_OpenUSART 149A 0 CODE 0 text32 dist/default/debug\Robot.debug.obj
-_SPBRGH FB0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_IPR2bits FA2 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_OpenUSART 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_ConvertADC 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_printf 1710 0 CODE 0 text44 dist/default/debug\Robot.debug.obj
-__end_of_BORtask 18A2 0 CODE 0 text22 dist/default/debug\Robot.debug.obj
-__size_of_openPORTCforPWM 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_motors_brake_all 1860 0 CODE 0 text3 dist/default/debug\Robot.debug.obj
-__end_of_ReadADC 19B6 0 CODE 0 text40 dist/default/debug\Robot.debug.obj
-__end_of_initialization 1338 0 CODE 0 text12 dist/default/debug\Robot.debug.obj
-__size_of_LVtrap 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_PORtask 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hbank0 0 0 ABS 0 bank0 dist/default/debug\Robot.debug.obj
-__Hbank1 0 0 ABS 0 bank1 dist/default/debug\Robot.debug.obj
-__Hbank2 0 0 ABS 0 bank2 dist/default/debug\Robot.debug.obj
-__Hbank3 0 0 ABS 0 bank3 dist/default/debug\Robot.debug.obj
-__Hbank4 0 0 ABS 0 bank4 dist/default/debug\Robot.debug.obj
-__Hbank5 0 0 ABS 0 bank5 dist/default/debug\Robot.debug.obj
-__Hbank6 0 0 ABS 0 bank6 dist/default/debug\Robot.debug.obj
-__Hbank7 0 0 ABS 0 bank7 dist/default/debug\Robot.debug.obj
-__Hbank8 0 0 ABS 0 bank8 dist/default/debug\Robot.debug.obj
-__Hbank9 0 0 ABS 0 bank9 dist/default/debug\Robot.debug.obj
-__Hcinit 0 0 ABS 0 cinit dist/default/debug\Robot.debug.obj
-__Hconst 0 0 CODE 0 const dist/default/debug\Robot.debug.obj
-__Hidata 0 0 CODE 0 idata dist/default/debug\Robot.debug.obj
-__Hidloc 200008 0 IDLOC 0 idloc dist/default/debug\Robot.debug.obj
-__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Robot.debug.obj
-__Hparam 0 0 COMRAM 1 rparam dist/default/debug\Robot.debug.obj
-__Hrdata 0 0 COMRAM 1 rdata dist/default/debug\Robot.debug.obj
-__Hstack 0 0 STACK 2 stack dist/default/debug\Robot.debug.obj
-__Htext0 0 0 ABS 0 text0 dist/default/debug\Robot.debug.obj
-__Htext1 0 0 ABS 0 text1 dist/default/debug\Robot.debug.obj
-__Htext2 0 0 ABS 0 text2 dist/default/debug\Robot.debug.obj
-__Htext3 0 0 ABS 0 text3 dist/default/debug\Robot.debug.obj
-__Htext4 0 0 ABS 0 text4 dist/default/debug\Robot.debug.obj
-__Htext5 0 0 ABS 0 text5 dist/default/debug\Robot.debug.obj
-__Htext6 0 0 ABS 0 text6 dist/default/debug\Robot.debug.obj
-__Htext7 0 0 ABS 0 text7 dist/default/debug\Robot.debug.obj
-__Htext8 0 0 ABS 0 text8 dist/default/debug\Robot.debug.obj
-__Htext9 0 0 ABS 0 text9 dist/default/debug\Robot.debug.obj
-__size_of_WDTtask 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_OpenADC 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_OpenUSART 143A 0 CODE 0 text32 dist/default/debug\Robot.debug.obj
-__Hbank10 0 0 ABS 0 bank10 dist/default/debug\Robot.debug.obj
-__Hbank11 0 0 ABS 0 bank11 dist/default/debug\Robot.debug.obj
-__Hbank12 0 0 ABS 0 bank12 dist/default/debug\Robot.debug.obj
-__Hbank13 0 0 ABS 0 bank13 dist/default/debug\Robot.debug.obj
-__Hbank14 0 0 ABS 0 bank14 dist/default/debug\Robot.debug.obj
-__Hbank15 0 0 ABS 0 bank15 dist/default/debug\Robot.debug.obj
-__size_of_set_osc_32MHz 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Robot.debug.obj
-__Hbigram 0 0 ABS 0 bigram dist/default/debug\Robot.debug.obj
-__smallconst 1000 0 SMALLCONST 0 smallconst C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-__end_of_StatusReset 19C8 0 CODE 0 text23 dist/default/debug\Robot.debug.obj
-__size_of_lvd_flag_set 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hcomram 0 0 ABS 0 comram dist/default/debug\Robot.debug.obj
-__Hconfig 30000E 0 CONFIG 0 config dist/default/debug\Robot.debug.obj
-__end_of_isWDTTO 1818 0 CODE 0 text15 dist/default/debug\Robot.debug.obj
-__end_ofset_motor_speed@motor_speeds 100F 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
-__Lbank0 0 0 ABS 0 bank0 dist/default/debug\Robot.debug.obj
-__Lbank1 0 0 ABS 0 bank1 dist/default/debug\Robot.debug.obj
-__Lbank2 0 0 ABS 0 bank2 dist/default/debug\Robot.debug.obj
-__Lbank3 0 0 ABS 0 bank3 dist/default/debug\Robot.debug.obj
-__Lbank4 0 0 ABS 0 bank4 dist/default/debug\Robot.debug.obj
-__Lbank5 0 0 ABS 0 bank5 dist/default/debug\Robot.debug.obj
-__Lbank6 0 0 ABS 0 bank6 dist/default/debug\Robot.debug.obj
-__Lbank7 0 0 ABS 0 bank7 dist/default/debug\Robot.debug.obj
-__Lbank8 0 0 ABS 0 bank8 dist/default/debug\Robot.debug.obj
-__Lbank9 0 0 ABS 0 bank9 dist/default/debug\Robot.debug.obj
-__Lcinit 0 0 ABS 0 cinit dist/default/debug\Robot.debug.obj
-__Lconst 0 0 CODE 0 const dist/default/debug\Robot.debug.obj
-__end_of_openPORTCforUSART 19D4 0 CODE 0 text25 dist/default/debug\Robot.debug.obj
-__Lidata 0 0 CODE 0 idata dist/default/debug\Robot.debug.obj
-__Lidloc 200000 0 IDLOC 0 idloc dist/default/debug\Robot.debug.obj
-__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Robot.debug.obj
-__Lparam 0 0 COMRAM 1 rparam dist/default/debug\Robot.debug.obj
-__size_of_STKFULtask 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Lrdata 0 0 COMRAM 1 rdata dist/default/debug\Robot.debug.obj
-__Lstack 0 0 STACK 2 stack dist/default/debug\Robot.debug.obj
-__Ltext0 0 0 ABS 0 text0 dist/default/debug\Robot.debug.obj
-__Ltext1 0 0 ABS 0 text1 dist/default/debug\Robot.debug.obj
-__Ltext2 0 0 ABS 0 text2 dist/default/debug\Robot.debug.obj
-__Ltext3 0 0 ABS 0 text3 dist/default/debug\Robot.debug.obj
-__Ltext4 0 0 ABS 0 text4 dist/default/debug\Robot.debug.obj
-__Ltext5 0 0 ABS 0 text5 dist/default/debug\Robot.debug.obj
-__Ltext6 0 0 ABS 0 text6 dist/default/debug\Robot.debug.obj
-__Ltext7 0 0 ABS 0 text7 dist/default/debug\Robot.debug.obj
-__Ltext8 0 0 ABS 0 text8 dist/default/debug\Robot.debug.obj
-__Ltext9 0 0 ABS 0 text9 dist/default/debug\Robot.debug.obj
-__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\Robot.debug.obj
-__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Robot.debug.obj
-_PORTCbits F82 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_PORTDbits F83 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_PORTEbits F84 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_INTCONbits FF2 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__CFG_OSC$INTIO67 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Habs1 0 0 ABS 0 abs1 dist/default/debug\Robot.debug.obj
-__Hdata 0 0 ABS 0 data dist/default/debug\Robot.debug.obj
-__Hinit 16 0 CODE 0 init dist/default/debug\Robot.debug.obj
-__Hrbit 0 0 COMRAM 1 rbit dist/default/debug\Robot.debug.obj
-__Hrbss 0 0 COMRAM 1 rbss dist/default/debug\Robot.debug.obj
-__Htemp 22 0 COMRAM 1 temp dist/default/debug\Robot.debug.obj
-__Htext 0 0 ABS 0 text dist/default/debug\Robot.debug.obj
-__Labs1 0 0 ABS 0 abs1 dist/default/debug\Robot.debug.obj
-__Ldata 0 0 ABS 0 data dist/default/debug\Robot.debug.obj
-__Linit 16 0 CODE 0 init dist/default/debug\Robot.debug.obj
-__Lrbit 0 0 COMRAM 1 rbit dist/default/debug\Robot.debug.obj
-__Lrbss 0 0 COMRAM 1 rbss dist/default/debug\Robot.debug.obj
-__Ltemp 21 0 COMRAM 1 temp dist/default/debug\Robot.debug.obj
-__Ltext 0 0 ABS 0 text dist/default/debug\Robot.debug.obj
-__size_of_reset_codes 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-int$flags 21 0 COMRAM 1 temp dist/default/debug\Robot.debug.obj
-__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Hintret 0 0 ABS 0 intret dist/default/debug\Robot.debug.obj
-__Hirdata 0 0 CODE 0 irdata dist/default/debug\Robot.debug.obj
-_PR2 FCB 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__S0 30000E 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__S1 22 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__S2 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_adc 183C 0 CODE 0 text38 dist/default/debug\Robot.debug.obj
-__end_of_lvd_flag_set 19EA 0 CODE 0 text11 dist/default/debug\Robot.debug.obj
-__end_of_set_osc_32MHz 17F4 0 CODE 0 text13 dist/default/debug\Robot.debug.obj
-__size_of_spin_right 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Robot.debug.obj
-__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Robot.debug.obj
-__end_of_adc 1860 0 CODE 0 text38 dist/default/debug\Robot.debug.obj
-int_func 1338 0 CODE 0 intcode_body dist/default/debug\Robot.debug.obj
-__CFG_BOREN$ON 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_BusyADC 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-OpenADC@config2 F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Lintentry 0 0 ABS 0 intentry dist/default/debug\Robot.debug.obj
-__Hramtop 1000 0 RAM 0 ramtop dist/default/debug\Robot.debug.obj
-__Hrparam 0 0 COMRAM 1 rparam dist/default/debug\Robot.debug.obj
-__size_of_high_isr 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_motors_brake_all 1882 0 CODE 0 text3 dist/default/debug\Robot.debug.obj
-__activetblptr 3 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hstruct 0 0 COMRAM 1 struct dist/default/debug\Robot.debug.obj
-__Htext10 0 0 ABS 0 text10 dist/default/debug\Robot.debug.obj
-__Htext11 0 0 ABS 0 text11 dist/default/debug\Robot.debug.obj
-__Htext12 0 0 ABS 0 text12 dist/default/debug\Robot.debug.obj
-__Htext13 0 0 ABS 0 text13 dist/default/debug\Robot.debug.obj
-__Htext14 0 0 ABS 0 text14 dist/default/debug\Robot.debug.obj
-__Htext15 0 0 ABS 0 text15 dist/default/debug\Robot.debug.obj
-__Htext16 0 0 ABS 0 text16 dist/default/debug\Robot.debug.obj
-__Htext17 0 0 ABS 0 text17 dist/default/debug\Robot.debug.obj
-__Htext18 0 0 ABS 0 text18 dist/default/debug\Robot.debug.obj
-__Htext19 0 0 ABS 0 text19 dist/default/debug\Robot.debug.obj
-__Htext20 0 0 ABS 0 text20 dist/default/debug\Robot.debug.obj
-__Htext21 0 0 ABS 0 text21 dist/default/debug\Robot.debug.obj
-__Htext22 0 0 ABS 0 text22 dist/default/debug\Robot.debug.obj
-__Htext23 0 0 ABS 0 text23 dist/default/debug\Robot.debug.obj
-__Htext24 0 0 ABS 0 text24 dist/default/debug\Robot.debug.obj
-__Htext25 0 0 ABS 0 text25 dist/default/debug\Robot.debug.obj
-__Htext26 0 0 ABS 0 text26 dist/default/debug\Robot.debug.obj
-__Htext27 0 0 ABS 0 text27 dist/default/debug\Robot.debug.obj
-__Htext28 0 0 ABS 0 text28 dist/default/debug\Robot.debug.obj
-__Htext29 0 0 ABS 0 text29 dist/default/debug\Robot.debug.obj
-__Htext30 0 0 ABS 0 text30 dist/default/debug\Robot.debug.obj
-__Htext31 0 0 ABS 0 text31 dist/default/debug\Robot.debug.obj
-__Htext32 0 0 ABS 0 text32 dist/default/debug\Robot.debug.obj
-__Htext33 0 0 ABS 0 text33 dist/default/debug\Robot.debug.obj
-__Htext34 0 0 ABS 0 text34 dist/default/debug\Robot.debug.obj
-__Htext35 0 0 ABS 0 text35 dist/default/debug\Robot.debug.obj
-__Htext36 0 0 ABS 0 text36 dist/default/debug\Robot.debug.obj
-__Htext37 0 0 ABS 0 text37 dist/default/debug\Robot.debug.obj
-__Htext38 0 0 ABS 0 text38 dist/default/debug\Robot.debug.obj
-__Htext39 0 0 ABS 0 text39 dist/default/debug\Robot.debug.obj
-__Htext40 0 0 ABS 0 text40 dist/default/debug\Robot.debug.obj
-__Htext41 0 0 ABS 0 text41 dist/default/debug\Robot.debug.obj
-__Htext42 0 0 ABS 0 text42 dist/default/debug\Robot.debug.obj
-__Htext43 0 0 ABS 0 text43 dist/default/debug\Robot.debug.obj
-__Htext44 0 0 ABS 0 text44 dist/default/debug\Robot.debug.obj
-__Htext45 0 0 ABS 0 text45 dist/default/debug\Robot.debug.obj
-__Htext46 0 0 ABS 0 text46 dist/default/debug\Robot.debug.obj
-__Htext47 0 0 ABS 0 text47 dist/default/debug\Robot.debug.obj
-_openLVD 1934 0 CODE 0 text29 dist/default/debug\Robot.debug.obj
-__size_of_OpenPWM1 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_OpenPWM2 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_PORtask 12A8 0 CODE 0 text21 dist/default/debug\Robot.debug.obj
-_motor_control 1642 0 CODE 0 text2 dist/default/debug\Robot.debug.obj
-_RCSTAbits FAB 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_motors_brake_all 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_PIE1bits F9D 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_PIE2bits FA0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_WDTtask 18FC 0 CODE 0 text18 dist/default/debug\Robot.debug.obj
-__end_of_OpenADC 14F8 0 CODE 0 text36 dist/default/debug\Robot.debug.obj
-__ptext10 1144 0 CODE 0 text10 dist/default/debug\Robot.debug.obj
-__ptext11 19E6 0 CODE 0 text11 dist/default/debug\Robot.debug.obj
-__ptext12 12A8 0 CODE 0 text12 dist/default/debug\Robot.debug.obj
-__ptext13 17CE 0 CODE 0 text13 dist/default/debug\Robot.debug.obj
-__ptext14 1556 0 CODE 0 text14 dist/default/debug\Robot.debug.obj
-__ptext15 17F4 0 CODE 0 text15 dist/default/debug\Robot.debug.obj
-__ptext16 1818 0 CODE 0 text16 dist/default/debug\Robot.debug.obj
-__ptext17 1962 0 CODE 0 text17 dist/default/debug\Robot.debug.obj
-__ptext18 18E0 0 CODE 0 text18 dist/default/debug\Robot.debug.obj
-__ptext19 18C2 0 CODE 0 text19 dist/default/debug\Robot.debug.obj
-__ptext20 18FC 0 CODE 0 text20 dist/default/debug\Robot.debug.obj
-__ptext21 1200 0 CODE 0 text21 dist/default/debug\Robot.debug.obj
-__ptext22 1882 0 CODE 0 text22 dist/default/debug\Robot.debug.obj
-__ptext23 19C2 0 CODE 0 text23 dist/default/debug\Robot.debug.obj
-__ptext24 19C8 0 CODE 0 text24 dist/default/debug\Robot.debug.obj
-__ptext25 19CE 0 CODE 0 text25 dist/default/debug\Robot.debug.obj
-__ptext26 199A 0 CODE 0 text26 dist/default/debug\Robot.debug.obj
-__ptext27 19D4 0 CODE 0 text27 dist/default/debug\Robot.debug.obj
-__ptext28 19DA 0 CODE 0 text28 dist/default/debug\Robot.debug.obj
-__ptext29 1934 0 CODE 0 text29 dist/default/debug\Robot.debug.obj
-__ptext30 1596 0 CODE 0 text30 dist/default/debug\Robot.debug.obj
-__ptext31 15D0 0 CODE 0 text31 dist/default/debug\Robot.debug.obj
-__ptext32 143A 0 CODE 0 text32 dist/default/debug\Robot.debug.obj
-__ptext33 1918 0 CODE 0 text33 dist/default/debug\Robot.debug.obj
-__ptext34 167A 0 CODE 0 text34 dist/default/debug\Robot.debug.obj
-__ptext35 1988 0 CODE 0 text35 dist/default/debug\Robot.debug.obj
-__ptext36 149A 0 CODE 0 text36 dist/default/debug\Robot.debug.obj
-__ptext37 1080 0 CODE 0 text37 dist/default/debug\Robot.debug.obj
-__ptext38 183C 0 CODE 0 text38 dist/default/debug\Robot.debug.obj
-__ptext39 194C 0 CODE 0 text39 dist/default/debug\Robot.debug.obj
-__ptext40 19A8 0 CODE 0 text40 dist/default/debug\Robot.debug.obj
-__ptext41 19EA 0 CODE 0 text41 dist/default/debug\Robot.debug.obj
-__ptext42 19B6 0 CODE 0 text42 dist/default/debug\Robot.debug.obj
-__ptext43 18A2 0 CODE 0 text43 dist/default/debug\Robot.debug.obj
-__ptext44 16E4 0 CODE 0 text44 dist/default/debug\Robot.debug.obj
-__ptext45 19EE 0 CODE 0 text45 dist/default/debug\Robot.debug.obj
-__ptext46 19E0 0 CODE 0 text46 dist/default/debug\Robot.debug.obj
-__ptext47 14F8 0 CODE 0 text47 dist/default/debug\Robot.debug.obj
-__pintcode_body 1338 0 CODE 0 intcode_body dist/default/debug\Robot.debug.obj
-__Lbank10 0 0 ABS 0 bank10 dist/default/debug\Robot.debug.obj
-__Lbank11 0 0 ABS 0 bank11 dist/default/debug\Robot.debug.obj
-__Lbank12 0 0 ABS 0 bank12 dist/default/debug\Robot.debug.obj
-__Lbank13 0 0 ABS 0 bank13 dist/default/debug\Robot.debug.obj
-__Lbank14 0 0 ABS 0 bank14 dist/default/debug\Robot.debug.obj
-__Lbank15 0 0 ABS 0 bank15 dist/default/debug\Robot.debug.obj
-__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Robot.debug.obj
-__Lbigram 0 0 ABS 0 bigram dist/default/debug\Robot.debug.obj
-__CFG_BORV$0 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-set_osc_32MHz@i F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-_openPORTCforUSART 19CE 0 CODE 0 text25 dist/default/debug\Robot.debug.obj
-__Lcomram 0 0 ABS 0 comram dist/default/debug\Robot.debug.obj
-__Lconfig 300000 0 CONFIG 0 config dist/default/debug\Robot.debug.obj
-_printf 16E4 0 CODE 0 text44 dist/default/debug\Robot.debug.obj
-__size_of_set_leds 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-OpenADC@portconfig 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-OpenADC@config 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\Robot.debug.obj
-OpenPWM2@ccp2mx 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-_turn_right 1710 0 CODE 0 text5 dist/default/debug\Robot.debug.obj
-__Lfardata 0 0 FARRAM 0 fardata dist/default/debug\Robot.debug.obj
-stackhi F7F 0 ABS 0 - C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-stacklo 80 0 ABS 0 - C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-__Lintcode 8 0 CODE 0 intcode dist/default/debug\Robot.debug.obj
-__Lintret 0 0 ABS 0 intret dist/default/debug\Robot.debug.obj
-_check_sensors 1080 0 CODE 0 text37 dist/default/debug\Robot.debug.obj
-__Lirdata 0 0 CODE 0 irdata dist/default/debug\Robot.debug.obj
-_ADCON0bits FC2 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_high_isr 8 0 CODE 0 intcode dist/default/debug\Robot.debug.obj
-__size_of_StatusReset 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-OpenTimer2@config F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-_OpenTimer2 1918 0 CODE 0 text33 dist/default/debug\Robot.debug.obj
-__Lspace_0 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Lspace_1 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Lspace_2 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_threshold 1D 0 COMRAM 1 bssCOMRAM dist/default/debug\Robot.debug.obj
-__pbssCOMRAM 1D 0 COMRAM 1 bssCOMRAM dist/default/debug\Robot.debug.obj
-_OpenPWM1 1988 0 CODE 0 text35 dist/default/debug\Robot.debug.obj
-_OpenPWM2 167A 0 CODE 0 text34 dist/default/debug\Robot.debug.obj
-_PIR1bits F9E 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_PIR2bits FA1 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Lend_init 16 0 CODE 0 end_init dist/default/debug\Robot.debug.obj
-__size_of_follow_simple_curves 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__end_of_turn_left 175C 0 CODE 0 text6 dist/default/debug\Robot.debug.obj
-__end_of_high_isr 13BC 0 CODE 0 intcode_body dist/default/debug\Robot.debug.obj
-printf@ap 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-end_of_initialization 197E 0 CODE 0 cinit dist/default/debug\Robot.debug.obj
-__size_of_turn_left 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Robot.debug.obj
-__Hintentry 0 0 ABS 0 intentry dist/default/debug\Robot.debug.obj
-__CFG_STVREN$ON 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_RCONbits FD0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_printf 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_OpenPWM1 199A 0 CODE 0 text35 dist/default/debug\Robot.debug.obj
-__end_of_OpenPWM2 16B2 0 CODE 0 text34 dist/default/debug\Robot.debug.obj
-__end_of_BusyADC 19C2 0 CODE 0 text42 dist/default/debug\Robot.debug.obj
-_BORtask 1882 0 CODE 0 text22 dist/default/debug\Robot.debug.obj
-SetDCPWM2@dutycycle F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Hreset_vec 4 0 CODE 0 reset_vec dist/default/debug\Robot.debug.obj
-_set_leds 13BC 0 CODE 0 text1 dist/default/debug\Robot.debug.obj
-_ReadADC 19A8 0 CODE 0 text40 dist/default/debug\Robot.debug.obj
-__end_of_follow_simple_curves 16E4 0 CODE 0 text4 dist/default/debug\Robot.debug.obj
-__Lramtop 1000 0 RAM 0 ramtop dist/default/debug\Robot.debug.obj
-__Lrparam 0 0 COMRAM 1 rparam dist/default/debug\Robot.debug.obj
-__pcinit 1976 0 CODE 0 cinit dist/default/debug\Robot.debug.obj
-__ptext0 160A 0 CODE 0 text0 dist/default/debug\Robot.debug.obj
-__ptext1 13BC 0 CODE 0 text1 dist/default/debug\Robot.debug.obj
-__ptext2 1642 0 CODE 0 text2 dist/default/debug\Robot.debug.obj
-__ptext3 1860 0 CODE 0 text3 dist/default/debug\Robot.debug.obj
-__ptext4 16B2 0 CODE 0 text4 dist/default/debug\Robot.debug.obj
-__ptext5 1710 0 CODE 0 text5 dist/default/debug\Robot.debug.obj
-__ptext6 1736 0 CODE 0 text6 dist/default/debug\Robot.debug.obj
-__ptext7 175C 0 CODE 0 text7 dist/default/debug\Robot.debug.obj
-__ptext8 1782 0 CODE 0 text8 dist/default/debug\Robot.debug.obj
-__ptext9 17A8 0 CODE 0 text9 dist/default/debug\Robot.debug.obj
-_turn_left 1736 0 CODE 0 text6 dist/default/debug\Robot.debug.obj
-OpenPWM2@period F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Lstruct 0 0 COMRAM 1 struct dist/default/debug\Robot.debug.obj
-set_motor_speed@dir_modifier 1A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Ltext10 0 0 ABS 0 text10 dist/default/debug\Robot.debug.obj
-__Ltext11 0 0 ABS 0 text11 dist/default/debug\Robot.debug.obj
-__Ltext12 0 0 ABS 0 text12 dist/default/debug\Robot.debug.obj
-__Ltext13 0 0 ABS 0 text13 dist/default/debug\Robot.debug.obj
-__Ltext14 0 0 ABS 0 text14 dist/default/debug\Robot.debug.obj
-__Ltext15 0 0 ABS 0 text15 dist/default/debug\Robot.debug.obj
-__Ltext16 0 0 ABS 0 text16 dist/default/debug\Robot.debug.obj
-__Ltext17 0 0 ABS 0 text17 dist/default/debug\Robot.debug.obj
-__Ltext18 0 0 ABS 0 text18 dist/default/debug\Robot.debug.obj
-__Ltext19 0 0 ABS 0 text19 dist/default/debug\Robot.debug.obj
-__Ltext20 0 0 ABS 0 text20 dist/default/debug\Robot.debug.obj
-__Ltext21 0 0 ABS 0 text21 dist/default/debug\Robot.debug.obj
-__Ltext22 0 0 ABS 0 text22 dist/default/debug\Robot.debug.obj
-__Ltext23 0 0 ABS 0 text23 dist/default/debug\Robot.debug.obj
-__Ltext24 0 0 ABS 0 text24 dist/default/debug\Robot.debug.obj
-__Ltext25 0 0 ABS 0 text25 dist/default/debug\Robot.debug.obj
-__Ltext26 0 0 ABS 0 text26 dist/default/debug\Robot.debug.obj
-__Ltext27 0 0 ABS 0 text27 dist/default/debug\Robot.debug.obj
-__Ltext28 0 0 ABS 0 text28 dist/default/debug\Robot.debug.obj
-__Ltext29 0 0 ABS 0 text29 dist/default/debug\Robot.debug.obj
-__Ltext30 0 0 ABS 0 text30 dist/default/debug\Robot.debug.obj
-__Ltext31 0 0 ABS 0 text31 dist/default/debug\Robot.debug.obj
-__Ltext32 0 0 ABS 0 text32 dist/default/debug\Robot.debug.obj
-__Ltext33 0 0 ABS 0 text33 dist/default/debug\Robot.debug.obj
-__Ltext34 0 0 ABS 0 text34 dist/default/debug\Robot.debug.obj
-__Ltext35 0 0 ABS 0 text35 dist/default/debug\Robot.debug.obj
-__Ltext36 0 0 ABS 0 text36 dist/default/debug\Robot.debug.obj
-__Ltext37 0 0 ABS 0 text37 dist/default/debug\Robot.debug.obj
-__Ltext38 0 0 ABS 0 text38 dist/default/debug\Robot.debug.obj
-__Ltext39 0 0 ABS 0 text39 dist/default/debug\Robot.debug.obj
-__Ltext40 0 0 ABS 0 text40 dist/default/debug\Robot.debug.obj
-__Ltext41 0 0 ABS 0 text41 dist/default/debug\Robot.debug.obj
-__Ltext42 0 0 ABS 0 text42 dist/default/debug\Robot.debug.obj
-__Ltext43 0 0 ABS 0 text43 dist/default/debug\Robot.debug.obj
-__Ltext44 0 0 ABS 0 text44 dist/default/debug\Robot.debug.obj
-__Ltext45 0 0 ABS 0 text45 dist/default/debug\Robot.debug.obj
-__Ltext46 0 0 ABS 0 text46 dist/default/debug\Robot.debug.obj
-__Ltext47 0 0 ABS 0 text47 dist/default/debug\Robot.debug.obj
-__end_of_set_leds 143A 0 CODE 0 text1 dist/default/debug\Robot.debug.obj
-__ramtop 1000 0 RAM 0 ramtop C:\Users\MZ\AppData\Local\Temp\sbuc.obj
-__size_of_motor_control 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_turn_right 1736 0 CODE 0 text5 dist/default/debug\Robot.debug.obj
-__Lpowerup 16 0 CODE 0 powerup dist/default/debug\Robot.debug.obj
-__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Robot.debug.obj
-_isWDTTO 17F4 0 CODE 0 text15 dist/default/debug\Robot.debug.obj
-_reset_codes 1556 0 CODE 0 text14 dist/default/debug\Robot.debug.obj
-__psmallconst 1000 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
-__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\Robot.debug.obj
-__size_of_initialization 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_OpenTimer2 1934 0 CODE 0 text33 dist/default/debug\Robot.debug.obj
-___param_bank 10 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__CFG_WDT$OFF 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__CFG_WDTPS$8 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Robot.debug.obj
-__end_of__initialization 197E 0 CODE 0 cinit dist/default/debug\Robot.debug.obj
-__Libigdata 0 0 CODE 0 ibigdata dist/default/debug\Robot.debug.obj
-_SetChanADC 194C 0 CODE 0 text39 dist/default/debug\Robot.debug.obj
-OpenPWM1@period F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Lclrtext 0 0 ABS 0 clrtext dist/default/debug\Robot.debug.obj
-__end_of_motor_control 167A 0 CODE 0 text2 dist/default/debug\Robot.debug.obj
-__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-set_motor_speed@motor_speeds 1001 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
-adc@channel 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__size_of_check_sensors 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_TXSTAbits FAC 0 ABS 0 - dist/default/debug\Robot.debug.obj
-?_ReadADC F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Hend_init 1A 0 CODE 0 end_init dist/default/debug\Robot.debug.obj
-__end_of_main 1642 0 CODE 0 text0 dist/default/debug\Robot.debug.obj
-__pintcode 8 0 CODE 0 intcode dist/default/debug\Robot.debug.obj
-__end_of_openPORTA 19E0 0 CODE 0 text28 dist/default/debug\Robot.debug.obj
-__end_of_openPORTB 19DA 0 CODE 0 text27 dist/default/debug\Robot.debug.obj
-__end_of_openPORTD 19E6 0 CODE 0 text46 dist/default/debug\Robot.debug.obj
-__end_of_openPORTE 19CE 0 CODE 0 text24 dist/default/debug\Robot.debug.obj
-__end_of_gtrap 1556 0 CODE 0 text47 dist/default/debug\Robot.debug.obj
-__end_of_isBOR 1976 0 CODE 0 text17 dist/default/debug\Robot.debug.obj
-__end_of_isPOR 183C 0 CODE 0 text16 dist/default/debug\Robot.debug.obj
-_PORTD F83 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_RCSTA FAB 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_SPBRG FAF 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_T2CON FCA 0 ABS 0 - dist/default/debug\Robot.debug.obj
+OpenPWM2@ccp2mx 12 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__size_of_adc 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_TMR2 FCC 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_openPORTCforPWM 19F4 0 CODE 0 text26 dist/default/debug\Robot.debug.obj
+?_adc 12 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+_main 16BE 0 CODE 0 text0 dist/default/debug\Robot.debug.obj
+__end_of_initialization 1362 0 CODE 0 text12 dist/default/debug\Robot.debug.obj
+___sp 0 0 STACK 2 stack C:\Users\Student\AppData\Local\Temp\s3t8.obj
+_SetChanADC 1984 0 CODE 0 text39 dist/default/debug\Robot.debug.obj
+start 12 0 CODE 0 init C:\Users\Student\AppData\Local\Temp\s3t8.obj
+printf@ap 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+_lvd_flag 24 0 COMRAM 1 bssCOMRAM dist/default/debug\Robot.debug.obj
 _TRISA F92 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_RCSTA FAB 0 ABS 0 - dist/default/debug\Robot.debug.obj
 _TRISB F93 0 ABS 0 - dist/default/debug\Robot.debug.obj
 _TRISC F94 0 ABS 0 - dist/default/debug\Robot.debug.obj
 _TRISD F95 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_TRISE F96 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_SPBRG FAF 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/debug\Robot.debug.obj
 _TXSTA FAC 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_putch 19F0 0 CODE 0 text45 dist/default/debug\Robot.debug.obj
+_TRISE F96 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/debug\Robot.debug.obj
 __HRAM 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hbss 0 0 RAM 1 bss dist/default/debug\Robot.debug.obj
-__Hram 0 0 ABS 0 ram dist/default/debug\Robot.debug.obj
-__Hsfr 0 0 ABS 0 sfr dist/default/debug\Robot.debug.obj
+_PORTD F83 0 ABS 0 - dist/default/debug\Robot.debug.obj
 __LRAM 1 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Lbss 0 0 RAM 1 bss dist/default/debug\Robot.debug.obj
+_T2CON FCA 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_isBOR 19E6 0 CODE 0 text17 dist/default/debug\Robot.debug.obj
+_straight_fwd 17BE 0 CODE 0 text7 dist/default/debug\Robot.debug.obj
+_isPOR 19B0 0 CODE 0 text16 dist/default/debug\Robot.debug.obj
+__Hconfig 0 0 CONFIG 0 config dist/default/debug\Robot.debug.obj
+__Lconfig 0 0 CONFIG 0 config dist/default/debug\Robot.debug.obj
+_no_track 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_ConvertADC 1A40 0 CODE 0 text41 dist/default/debug\Robot.debug.obj
+OpenTimer2@config 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+_check_sensors 1154 0 CODE 0 text37 dist/default/debug\Robot.debug.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/debug\Robot.debug.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/debug\Robot.debug.obj
+__Hrparam 0 0 ABS 0 rparam dist/default/debug\Robot.debug.obj
+__Lrparam 0 0 ABS 0 rparam dist/default/debug\Robot.debug.obj
+__Hram 0 0 ABS 0 ram dist/default/debug\Robot.debug.obj
 __Lram 0 0 ABS 0 ram dist/default/debug\Robot.debug.obj
+__Hcomram 0 0 ABS 0 comram dist/default/debug\Robot.debug.obj
+_putch 1A44 0 CODE 0 text45 dist/default/debug\Robot.debug.obj
+__Lcomram 0 0 ABS 0 comram dist/default/debug\Robot.debug.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/debug\Robot.debug.obj
 __Lsfr 0 0 ABS 0 sfr dist/default/debug\Robot.debug.obj
-_gtrap 14F8 0 CODE 0 text47 dist/default/debug\Robot.debug.obj
-_ConvertADC 19EA 0 CODE 0 text41 dist/default/debug\Robot.debug.obj
-_isBOR 1962 0 CODE 0 text17 dist/default/debug\Robot.debug.obj
-_isPOR 1818 0 CODE 0 text16 dist/default/debug\Robot.debug.obj
+__end_of__stringdata 107E 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
+_gtrap 14CC 0 CODE 0 text47 dist/default/debug\Robot.debug.obj
+__Hbss 0 0 RAM 1 bss dist/default/debug\Robot.debug.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Lbss 0 0 RAM 1 bss dist/default/debug\Robot.debug.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Robot.debug.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Robot.debug.obj
+__end_of_straight_fwd 17EC 0 CODE 0 text7 dist/default/debug\Robot.debug.obj
+_set_leds 13E4 0 CODE 0 text1 dist/default/debug\Robot.debug.obj
+_ADCON0 FC2 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_ADCON1 FC1 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_ADCON2 FC0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_turn_left 17BE 0 CODE 0 text6 dist/default/debug\Robot.debug.obj
+__end_of_gtrap 152E 0 CODE 0 text47 dist/default/debug\Robot.debug.obj
+__end_of_putch 1A46 0 CODE 0 text45 dist/default/debug\Robot.debug.obj
+_PIE1bits F9D 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_PIE2bits FA0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Robot.debug.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Robot.debug.obj
+_PIR1bits F9E 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_PIR2bits FA1 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_IPR2bits FA2 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_set_osc_32MHz 1848 0 CODE 0 text13 dist/default/debug\Robot.debug.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Robot.debug.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Robot.debug.obj
+_CCPR1L FBE 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_CCPR2L FBB 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_RCONbits FD0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_motor_control 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Robot.debug.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Robot.debug.obj
+__Hintret 0 0 ABS 0 intret dist/default/debug\Robot.debug.obj
+__Lintret 0 0 ABS 0 intret dist/default/debug\Robot.debug.obj
+__Hramtop 1000 0 RAM 0 ramtop dist/default/debug\Robot.debug.obj
+__Lramtop 1000 0 RAM 0 ramtop dist/default/debug\Robot.debug.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug\Robot.debug.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug\Robot.debug.obj
+_high_isr 2 0 CODE 0 intcode dist/default/debug\Robot.debug.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Robot.debug.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Robot.debug.obj
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug\Robot.debug.obj
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug\Robot.debug.obj
+_SPBRGH FB0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\Robot.debug.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\Robot.debug.obj
+__Hintcode 12 0 CODE 0 intcode dist/default/debug\Robot.debug.obj
+__Lintcode 2 0 CODE 0 intcode dist/default/debug\Robot.debug.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug\Robot.debug.obj
+_ADRESH FC4 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug\Robot.debug.obj
+__pintcode 2 0 CODE 0 intcode dist/default/debug\Robot.debug.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/debug\Robot.debug.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/debug\Robot.debug.obj
+__size_of_isWDTTO 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_ADRESL FC3 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_straight_fwd 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+set_motor_speed@the_motor 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__CFG_OSC$INTIO67 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Robot.debug.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Robot.debug.obj
+__size_of_set_motor_speed 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+OpenADC@portconfig 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+set_motor_speed@duty_cycle 1D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+_threshold 21 0 COMRAM 1 bssCOMRAM dist/default/debug\Robot.debug.obj
+set_motor_speed@speed_modifier 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__size_of_openLVD 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_openPORTCforPWM 1A02 0 CODE 0 text26 dist/default/debug\Robot.debug.obj
+__Hdata 0 0 ABS 0 data dist/default/debug\Robot.debug.obj
+__Ldata 0 0 ABS 0 data dist/default/debug\Robot.debug.obj
+stackhi 0 0 ABS 0 - C:\Users\Student\AppData\Local\Temp\s3t8.obj
+_LVtrap 18D8 0 CODE 0 text43 dist/default/debug\Robot.debug.obj
+_printf 172E 0 CODE 0 text44 dist/default/debug\Robot.debug.obj
+_openPORTCforUSART 1A24 0 CODE 0 text25 dist/default/debug\Robot.debug.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/debug\Robot.debug.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/debug\Robot.debug.obj
+_RESETtask 1950 0 CODE 0 text20 dist/default/debug\Robot.debug.obj
+stacklo 0 0 ABS 0 - C:\Users\Student\AppData\Local\Temp\s3t8.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug\Robot.debug.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug\Robot.debug.obj
+__Hinit 12 0 CODE 0 init dist/default/debug\Robot.debug.obj
+__Linit 12 0 CODE 0 init dist/default/debug\Robot.debug.obj
+__Hintcodelo 12 0 CODE 0 intcodelo dist/default/debug\Robot.debug.obj
+__Lintcodelo 12 0 CODE 0 intcodelo dist/default/debug\Robot.debug.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug\Robot.debug.obj
+__size_of_SetChanADC 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_main 16F6 0 CODE 0 text0 dist/default/debug\Robot.debug.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug\Robot.debug.obj
+__size_of_ConvertADC 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Htext 0 0 ABS 0 text dist/default/debug\Robot.debug.obj
+__Ltext 0 0 ABS 0 text dist/default/debug\Robot.debug.obj
+__end_of_BusyADC 1A0E 0 CODE 0 text42 dist/default/debug\Robot.debug.obj
+end_of_initialization 19E0 0 CODE 0 cinit dist/default/debug\Robot.debug.obj
+set_motor_speed@dir_modifier 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+SetChanADC@channel 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+OpenUSART@spbrg 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+set_motor_speed@motor_speeds 1001 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
+_reset_codes 158E 0 CODE 0 text14 dist/default/debug\Robot.debug.obj
+__size_of_openPORTCforUSART 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_follow_simple_curves 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_spin_left 181A 0 CODE 0 text9 dist/default/debug\Robot.debug.obj
+_turn_left 1790 0 CODE 0 text6 dist/default/debug\Robot.debug.obj
+__size_of_gtrap 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_putch 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_RCSTAbits FAB 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_TRISBbits F93 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_TRISCbits F94 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_TXSTAbits FAC 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_PORTCbits F82 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_spin_left 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_PORTDbits F83 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_T2CONbits FCA 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_PORTEbits F84 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_ReadADC 1A0E 0 CODE 0 text40 dist/default/debug\Robot.debug.obj
+set_motor_speed@motor_speed 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+_SetDCPWM1 1684 0 CODE 0 text31 dist/default/debug\Robot.debug.obj
+__size_of_turn_left 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_OpenADC 152E 0 CODE 0 text36 dist/default/debug\Robot.debug.obj
+_BusyADC 1A02 0 CODE 0 text42 dist/default/debug\Robot.debug.obj
+__end_of_high_isr 13E4 0 CODE 0 intcode_body dist/default/debug\Robot.debug.obj
+_SetDCPWM2 164A 0 CODE 0 text30 dist/default/debug\Robot.debug.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\Robot.debug.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug\Robot.debug.obj
+__end_of_isBOR 19F4 0 CODE 0 text17 dist/default/debug\Robot.debug.obj
+__size_of_OpenADC 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_CCP1CON FBD 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_CCP2CON FBA 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_OpenTimer2 1916 0 CODE 0 text33 dist/default/debug\Robot.debug.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug\Robot.debug.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug\Robot.debug.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/debug\Robot.debug.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/debug\Robot.debug.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/debug\Robot.debug.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/debug\Robot.debug.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/debug\Robot.debug.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/debug\Robot.debug.obj
+__size_of_OpenTimer2 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/debug\Robot.debug.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/debug\Robot.debug.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/debug\Robot.debug.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/debug\Robot.debug.obj
+_openLVD 196C 0 CODE 0 text29 dist/default/debug\Robot.debug.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug\Robot.debug.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug\Robot.debug.obj
+__Hpowerup 12 0 CODE 0 powerup dist/default/debug\Robot.debug.obj
+__Lpowerup 12 0 CODE 0 powerup dist/default/debug\Robot.debug.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/debug\Robot.debug.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/debug\Robot.debug.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/debug\Robot.debug.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/debug\Robot.debug.obj
+__Hbank8 0 0 ABS 0 bank8 dist/default/debug\Robot.debug.obj
+__Lbank8 0 0 ABS 0 bank8 dist/default/debug\Robot.debug.obj
+__Htext0 0 0 ABS 0 text0 dist/default/debug\Robot.debug.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/debug\Robot.debug.obj
+__Hbank9 0 0 ABS 0 bank9 dist/default/debug\Robot.debug.obj
+__Lbank9 0 0 ABS 0 bank9 dist/default/debug\Robot.debug.obj
+__size_of_BusyADC 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Htext1 0 0 ABS 0 text1 dist/default/debug\Robot.debug.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/debug\Robot.debug.obj
+__ptext0 16BE 0 CODE 0 text0 dist/default/debug\Robot.debug.obj
+_isWDTTO 199C 0 CODE 0 text15 dist/default/debug\Robot.debug.obj
+__Htext2 0 0 ABS 0 text2 dist/default/debug\Robot.debug.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/debug\Robot.debug.obj
+__ptext1 13E4 0 CODE 0 text1 dist/default/debug\Robot.debug.obj
+__Htext3 0 0 ABS 0 text3 dist/default/debug\Robot.debug.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/debug\Robot.debug.obj
+__ptext2 160E 0 CODE 0 text2 dist/default/debug\Robot.debug.obj
+__Htext4 0 0 ABS 0 text4 dist/default/debug\Robot.debug.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/debug\Robot.debug.obj
+__ptext3 1896 0 CODE 0 text3 dist/default/debug\Robot.debug.obj
+__Htext5 0 0 ABS 0 text5 dist/default/debug\Robot.debug.obj
+__size_of_BORtask 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/debug\Robot.debug.obj
+__ptext4 16F6 0 CODE 0 text4 dist/default/debug\Robot.debug.obj
+__Htext6 0 0 ABS 0 text6 dist/default/debug\Robot.debug.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/debug\Robot.debug.obj
+__ptext5 1762 0 CODE 0 text5 dist/default/debug\Robot.debug.obj
+__Htext7 0 0 ABS 0 text7 dist/default/debug\Robot.debug.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/debug\Robot.debug.obj
+__ptext6 1790 0 CODE 0 text6 dist/default/debug\Robot.debug.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Robot.debug.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Robot.debug.obj
+OpenUSART@config 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__end_of_ConvertADC 1A44 0 CODE 0 text41 dist/default/debug\Robot.debug.obj
+__Htext8 0 0 ABS 0 text8 dist/default/debug\Robot.debug.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/debug\Robot.debug.obj
+__ptext7 17BE 0 CODE 0 text7 dist/default/debug\Robot.debug.obj
+__pbssCOMRAM 21 0 COMRAM 1 bssCOMRAM dist/default/debug\Robot.debug.obj
+__Htext9 0 0 ABS 0 text9 dist/default/debug\Robot.debug.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/debug\Robot.debug.obj
+__ptext8 17EC 0 CODE 0 text8 dist/default/debug\Robot.debug.obj
+__ptext9 181A 0 CODE 0 text9 dist/default/debug\Robot.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug\Robot.debug.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug\Robot.debug.obj
+_StatusReset 1A18 0 CODE 0 text23 dist/default/debug\Robot.debug.obj
+_initialization 12CA 0 CODE 0 text12 dist/default/debug\Robot.debug.obj
+__size_of_LVtrap 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_printf 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_spin_right 181A 0 CODE 0 text8 dist/default/debug\Robot.debug.obj
+_OSCTUNEbits F9B 0 ABS 0 - dist/default/debug\Robot.debug.obj
+printf@c 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__end_of__initialization 19E0 0 CODE 0 cinit dist/default/debug\Robot.debug.obj
+OpenPWM1@period 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+OpenPWM2@period 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+printf@f 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+_HLVDCONbits FD2 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_adc 1896 0 CODE 0 text38 dist/default/debug\Robot.debug.obj
+__end_of_set_osc_32MHz 1870 0 CODE 0 text13 dist/default/debug\Robot.debug.obj
+__size_of_spin_right 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_reset_codes 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_turn_right 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Hidata 0 0 CODE 0 idata dist/default/debug\Robot.debug.obj
+__Lidata 0 0 CODE 0 idata dist/default/debug\Robot.debug.obj
+_SeeLine 23 0 COMRAM 1 bssCOMRAM dist/default/debug\Robot.debug.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug\Robot.debug.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug\Robot.debug.obj
+__size_of_initialization 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Hidloc 0 0 IDLOC 0 idloc dist/default/debug\Robot.debug.obj
+__Lidloc 0 0 IDLOC 0 idloc dist/default/debug\Robot.debug.obj
+adc@channel 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__end_of_ReadADC 1A18 0 CODE 0 text40 dist/default/debug\Robot.debug.obj
+__Hstack 0 0 STACK 2 stack dist/default/debug\Robot.debug.obj
+__Lstack 0 0 STACK 2 stack dist/default/debug\Robot.debug.obj
+__size_of_high_isr 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+int_func 1362 0 CODE 0 intcode_body dist/default/debug\Robot.debug.obj
+__Hparam 0 0 ABS 0 rparam dist/default/debug\Robot.debug.obj
+__Lparam 0 0 ABS 0 rparam dist/default/debug\Robot.debug.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+_BORtask 18B8 0 CODE 0 text22 dist/default/debug\Robot.debug.obj
+_WDTtask 1934 0 CODE 0 text18 dist/default/debug\Robot.debug.obj
+_PORtask 1218 0 CODE 0 text21 dist/default/debug\Robot.debug.obj
+__end_of_check_sensors 1218 0 CODE 0 text37 dist/default/debug\Robot.debug.obj
+?_printf 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__end_of_openPORTCforUSART 1A2A 0 CODE 0 text25 dist/default/debug\Robot.debug.obj
+_STKFULtask 18F8 0 CODE 0 text19 dist/default/debug\Robot.debug.obj
+__Hsmallconst 1080 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
+__Lsmallconst 1000 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
+__psmallconst 1000 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
+__size_of_STKFULtask 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+OpenADC@config 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Robot.debug.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Robot.debug.obj
+__size_of_RESETtask 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/debug\Robot.debug.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/debug\Robot.debug.obj
+__end_of_STKFULtask 1916 0 CODE 0 text19 dist/default/debug\Robot.debug.obj
+__pcinit 19D8 0 CODE 0 cinit dist/default/debug\Robot.debug.obj
+__size_of_WDTtask 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__ramtop 1000 0 RAM 0 ramtop C:\Users\Student\AppData\Local\Temp\s3t8.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Student\AppData\Local\Temp\s3t8.obj
+_openPORTA 1A30 0 CODE 0 text28 dist/default/debug\Robot.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Hconst 0 0 CODE 0 const dist/default/debug\Robot.debug.obj
+__Lconst 0 0 CODE 0 const dist/default/debug\Robot.debug.obj
+__size_of_OpenUSART 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_openPORTB 1A2A 0 CODE 0 text27 dist/default/debug\Robot.debug.obj
+__CFG_BORV$0 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_openPORTD 1A36 0 CODE 0 text46 dist/default/debug\Robot.debug.obj
+__size_of_OpenPWM1 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_OpenPWM2 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_StatusReset 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_openPORTE 1A1E 0 CODE 0 text24 dist/default/debug\Robot.debug.obj
+SetDCPWM1@dutycycle 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__end_of_spin_left 1848 0 CODE 0 text9 dist/default/debug\Robot.debug.obj
+__Hbank10 0 0 ABS 0 bank10 dist/default/debug\Robot.debug.obj
+SetDCPWM2@dutycycle 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__Lbank10 0 0 ABS 0 bank10 dist/default/debug\Robot.debug.obj
+__Hbank11 0 0 ABS 0 bank11 dist/default/debug\Robot.debug.obj
+__Lbank11 0 0 ABS 0 bank11 dist/default/debug\Robot.debug.obj
+__Hbank12 0 0 ABS 0 bank12 dist/default/debug\Robot.debug.obj
+__Lbank12 0 0 ABS 0 bank12 dist/default/debug\Robot.debug.obj
+__Hbank13 0 0 ABS 0 bank13 dist/default/debug\Robot.debug.obj
+__Lbank13 0 0 ABS 0 bank13 dist/default/debug\Robot.debug.obj
+__Hbank14 0 0 ABS 0 bank14 dist/default/debug\Robot.debug.obj
+__Lbank14 0 0 ABS 0 bank14 dist/default/debug\Robot.debug.obj
+__Htext10 0 0 ABS 0 text10 dist/default/debug\Robot.debug.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/debug\Robot.debug.obj
+__end_of_OpenTimer2 1934 0 CODE 0 text33 dist/default/debug\Robot.debug.obj
+__Htext20 0 0 ABS 0 text20 dist/default/debug\Robot.debug.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/debug\Robot.debug.obj
+_motors_brake_all 1896 0 CODE 0 text3 dist/default/debug\Robot.debug.obj
+__ptext10 1080 0 CODE 0 text10 dist/default/debug\Robot.debug.obj
+__Hbank15 0 0 ABS 0 bank15 dist/default/debug\Robot.debug.obj
+__Lbank15 0 0 ABS 0 bank15 dist/default/debug\Robot.debug.obj
+__Htext30 0 0 ABS 0 text30 dist/default/debug\Robot.debug.obj
+__Htext11 0 0 ABS 0 text11 dist/default/debug\Robot.debug.obj
+__Ltext30 0 0 ABS 0 text30 dist/default/debug\Robot.debug.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/debug\Robot.debug.obj
+__ptext20 1950 0 CODE 0 text20 dist/default/debug\Robot.debug.obj
+__end_of_motor_control 164A 0 CODE 0 text2 dist/default/debug\Robot.debug.obj
+__Htext40 0 0 ABS 0 text40 dist/default/debug\Robot.debug.obj
+__Htext21 0 0 ABS 0 text21 dist/default/debug\Robot.debug.obj
+__Ltext40 0 0 ABS 0 text40 dist/default/debug\Robot.debug.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/debug\Robot.debug.obj
+__ptext11 1A3C 0 CODE 0 text11 dist/default/debug\Robot.debug.obj
+__ptext30 164A 0 CODE 0 text30 dist/default/debug\Robot.debug.obj
+__Htext31 0 0 ABS 0 text31 dist/default/debug\Robot.debug.obj
+__Htext12 0 0 ABS 0 text12 dist/default/debug\Robot.debug.obj
+__Ltext31 0 0 ABS 0 text31 dist/default/debug\Robot.debug.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/debug\Robot.debug.obj
+__ptext21 1218 0 CODE 0 text21 dist/default/debug\Robot.debug.obj
+__ptext40 1A0E 0 CODE 0 text40 dist/default/debug\Robot.debug.obj
+__Htext41 0 0 ABS 0 text41 dist/default/debug\Robot.debug.obj
+__Htext22 0 0 ABS 0 text22 dist/default/debug\Robot.debug.obj
+__Ltext41 0 0 ABS 0 text41 dist/default/debug\Robot.debug.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/debug\Robot.debug.obj
+__ptext12 12CA 0 CODE 0 text12 dist/default/debug\Robot.debug.obj
+__ptext31 1684 0 CODE 0 text31 dist/default/debug\Robot.debug.obj
+__Htext32 0 0 ABS 0 text32 dist/default/debug\Robot.debug.obj
+__Htext13 0 0 ABS 0 text13 dist/default/debug\Robot.debug.obj
+__Ltext32 0 0 ABS 0 text32 dist/default/debug\Robot.debug.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/debug\Robot.debug.obj
+__ptext22 18B8 0 CODE 0 text22 dist/default/debug\Robot.debug.obj
+__ptext41 1A40 0 CODE 0 text41 dist/default/debug\Robot.debug.obj
+_OpenPWM1 19C4 0 CODE 0 text35 dist/default/debug\Robot.debug.obj
+__Htext42 0 0 ABS 0 text42 dist/default/debug\Robot.debug.obj
+__Htext23 0 0 ABS 0 text23 dist/default/debug\Robot.debug.obj
+__Ltext42 0 0 ABS 0 text42 dist/default/debug\Robot.debug.obj
+__Ltext23 0 0 ABS 0 text23 dist/default/debug\Robot.debug.obj
+__ptext13 1848 0 CODE 0 text13 dist/default/debug\Robot.debug.obj
+__ptext32 1462 0 CODE 0 text32 dist/default/debug\Robot.debug.obj
+_ADCON0bits FC2 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_openPORTCforPWM 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Htext33 0 0 ABS 0 text33 dist/default/debug\Robot.debug.obj
+__Htext14 0 0 ABS 0 text14 dist/default/debug\Robot.debug.obj
+__Ltext33 0 0 ABS 0 text33 dist/default/debug\Robot.debug.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/debug\Robot.debug.obj
+__ptext23 1A18 0 CODE 0 text23 dist/default/debug\Robot.debug.obj
+__ptext42 1A02 0 CODE 0 text42 dist/default/debug\Robot.debug.obj
+_OpenPWM2 15CE 0 CODE 0 text34 dist/default/debug\Robot.debug.obj
+__Htext43 0 0 ABS 0 text43 dist/default/debug\Robot.debug.obj
+__Htext24 0 0 ABS 0 text24 dist/default/debug\Robot.debug.obj
+__Ltext43 0 0 ABS 0 text43 dist/default/debug\Robot.debug.obj
+__Ltext24 0 0 ABS 0 text24 dist/default/debug\Robot.debug.obj
+__ptext14 158E 0 CODE 0 text14 dist/default/debug\Robot.debug.obj
+__ptext33 1916 0 CODE 0 text33 dist/default/debug\Robot.debug.obj
+set_osc_32MHz@i 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__Htext34 0 0 ABS 0 text34 dist/default/debug\Robot.debug.obj
+__Htext15 0 0 ABS 0 text15 dist/default/debug\Robot.debug.obj
+__Ltext34 0 0 ABS 0 text34 dist/default/debug\Robot.debug.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/debug\Robot.debug.obj
+__ptext24 1A1E 0 CODE 0 text24 dist/default/debug\Robot.debug.obj
+__ptext43 18D8 0 CODE 0 text43 dist/default/debug\Robot.debug.obj
+__Htext44 0 0 ABS 0 text44 dist/default/debug\Robot.debug.obj
+__Htext25 0 0 ABS 0 text25 dist/default/debug\Robot.debug.obj
+__Ltext44 0 0 ABS 0 text44 dist/default/debug\Robot.debug.obj
+__Ltext25 0 0 ABS 0 text25 dist/default/debug\Robot.debug.obj
+__ptext15 199C 0 CODE 0 text15 dist/default/debug\Robot.debug.obj
+__ptext34 15CE 0 CODE 0 text34 dist/default/debug\Robot.debug.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\Student\AppData\Local\Temp\s3t8.obj
+__Htext35 0 0 ABS 0 text35 dist/default/debug\Robot.debug.obj
+__Htext16 0 0 ABS 0 text16 dist/default/debug\Robot.debug.obj
+__Ltext35 0 0 ABS 0 text35 dist/default/debug\Robot.debug.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/debug\Robot.debug.obj
+__ptext25 1A24 0 CODE 0 text25 dist/default/debug\Robot.debug.obj
+__ptext44 172E 0 CODE 0 text44 dist/default/debug\Robot.debug.obj
+__Htext45 0 0 ABS 0 text45 dist/default/debug\Robot.debug.obj
+__Htext26 0 0 ABS 0 text26 dist/default/debug\Robot.debug.obj
+__Ltext45 0 0 ABS 0 text45 dist/default/debug\Robot.debug.obj
+__Ltext26 0 0 ABS 0 text26 dist/default/debug\Robot.debug.obj
+__ptext16 19B0 0 CODE 0 text16 dist/default/debug\Robot.debug.obj
+__ptext35 19C4 0 CODE 0 text35 dist/default/debug\Robot.debug.obj
+__Htext36 0 0 ABS 0 text36 dist/default/debug\Robot.debug.obj
+__Htext17 0 0 ABS 0 text17 dist/default/debug\Robot.debug.obj
+__end_of_StatusReset 1A1E 0 CODE 0 text23 dist/default/debug\Robot.debug.obj
+__Ltext36 0 0 ABS 0 text36 dist/default/debug\Robot.debug.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/debug\Robot.debug.obj
+__ptext26 19F4 0 CODE 0 text26 dist/default/debug\Robot.debug.obj
+__ptext45 1A44 0 CODE 0 text45 dist/default/debug\Robot.debug.obj
+__Htext46 0 0 ABS 0 text46 dist/default/debug\Robot.debug.obj
+__Htext27 0 0 ABS 0 text27 dist/default/debug\Robot.debug.obj
+__Ltext46 0 0 ABS 0 text46 dist/default/debug\Robot.debug.obj
+__Ltext27 0 0 ABS 0 text27 dist/default/debug\Robot.debug.obj
+__end_of_LVtrap 18F8 0 CODE 0 text43 dist/default/debug\Robot.debug.obj
+__end_of_printf 1762 0 CODE 0 text44 dist/default/debug\Robot.debug.obj
+__ptext17 19E6 0 CODE 0 text17 dist/default/debug\Robot.debug.obj
+__ptext36 152E 0 CODE 0 text36 dist/default/debug\Robot.debug.obj
+__end_of_lvd_flag_set 1A40 0 CODE 0 text11 dist/default/debug\Robot.debug.obj
+__Htext37 0 0 ABS 0 text37 dist/default/debug\Robot.debug.obj
+__Htext18 0 0 ABS 0 text18 dist/default/debug\Robot.debug.obj
+__Ltext37 0 0 ABS 0 text37 dist/default/debug\Robot.debug.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/debug\Robot.debug.obj
+__ptext27 1A2A 0 CODE 0 text27 dist/default/debug\Robot.debug.obj
+__ptext46 1A36 0 CODE 0 text46 dist/default/debug\Robot.debug.obj
+_spin_right 17EC 0 CODE 0 text8 dist/default/debug\Robot.debug.obj
+__Htext47 0 0 ABS 0 text47 dist/default/debug\Robot.debug.obj
+__Htext28 0 0 ABS 0 text28 dist/default/debug\Robot.debug.obj
+_turn_right 1762 0 CODE 0 text5 dist/default/debug\Robot.debug.obj
+__Ltext47 0 0 ABS 0 text47 dist/default/debug\Robot.debug.obj
+__Ltext28 0 0 ABS 0 text28 dist/default/debug\Robot.debug.obj
+__ptext18 1934 0 CODE 0 text18 dist/default/debug\Robot.debug.obj
+__ptext37 1154 0 CODE 0 text37 dist/default/debug\Robot.debug.obj
+__Htext38 0 0 ABS 0 text38 dist/default/debug\Robot.debug.obj
+__Htext19 0 0 ABS 0 text19 dist/default/debug\Robot.debug.obj
+__Ltext38 0 0 ABS 0 text38 dist/default/debug\Robot.debug.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/debug\Robot.debug.obj
+__ptext28 1A30 0 CODE 0 text28 dist/default/debug\Robot.debug.obj
+__ptext47 14CC 0 CODE 0 text47 dist/default/debug\Robot.debug.obj
+__Htext29 0 0 ABS 0 text29 dist/default/debug\Robot.debug.obj
+__Ltext29 0 0 ABS 0 text29 dist/default/debug\Robot.debug.obj
+__ptext19 18F8 0 CODE 0 text19 dist/default/debug\Robot.debug.obj
+__ptext38 1870 0 CODE 0 text38 dist/default/debug\Robot.debug.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\Student\AppData\Local\Temp\s3t8.obj
+__Htext39 0 0 ABS 0 text39 dist/default/debug\Robot.debug.obj
+__size_of_PORtask 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__Ltext39 0 0 ABS 0 text39 dist/default/debug\Robot.debug.obj
+__ptext29 196C 0 CODE 0 text29 dist/default/debug\Robot.debug.obj
+__ptext39 1984 0 CODE 0 text39 dist/default/debug\Robot.debug.obj
+__end_of_set_leds 1462 0 CODE 0 text1 dist/default/debug\Robot.debug.obj
+_OSCCONbits FD3 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_INTCONbits FF2 0 ABS 0 - dist/default/debug\Robot.debug.obj
+_OpenUSART 1462 0 CODE 0 text32 dist/default/debug\Robot.debug.obj
+__Hend_init 16 0 CODE 0 end_init dist/default/debug\Robot.debug.obj
+__Lend_init 12 0 CODE 0 end_init dist/default/debug\Robot.debug.obj
+?_ReadADC 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+_STKPTRbits FFC 0 ABS 0 - dist/default/debug\Robot.debug.obj
+OpenADC@config2 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__end_of_OpenPWM1 19D8 0 CODE 0 text35 dist/default/debug\Robot.debug.obj
+__end_of_OpenPWM2 160E 0 CODE 0 text34 dist/default/debug\Robot.debug.obj
+__smallconst 1000 0 SMALLCONST 0 smallconst C:\Users\Student\AppData\Local\Temp\s3t8.obj
+__end_of_OpenADC 158E 0 CODE 0 text36 dist/default/debug\Robot.debug.obj
+SetDCPWM1@DCycle 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__Hreset_vec 2 0 CODE 0 reset_vec dist/default/debug\Robot.debug.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\Robot.debug.obj
+SetDCPWM2@DCycle 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__size_of_isBOR 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_motors_brake_all 18B8 0 CODE 0 text3 dist/default/debug\Robot.debug.obj
+__stringdata 100F 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
+__accesstop 80 0 ABS 0 - C:\Users\Student\AppData\Local\Temp\s3t8.obj
+__end_of_SetChanADC 199C 0 CODE 0 text39 dist/default/debug\Robot.debug.obj
+__end_of_openPORTA 1A36 0 CODE 0 text28 dist/default/debug\Robot.debug.obj
+__end_of_openPORTB 1A30 0 CODE 0 text27 dist/default/debug\Robot.debug.obj
+__end_of_openPORTD 1A3C 0 CODE 0 text46 dist/default/debug\Robot.debug.obj
+__end_of_openPORTE 1A24 0 CODE 0 text24 dist/default/debug\Robot.debug.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Robot.debug.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Robot.debug.obj
 __size_of_openPORTA 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
 __size_of_openPORTB 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
 __size_of_openPORTD 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
 __size_of_openPORTE 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_putch 19EE 0 CODE 0 text45 dist/default/debug\Robot.debug.obj
-_CCP1CON FBD 0 ABS 0 - dist/default/debug\Robot.debug.obj
-_CCP2CON FBA 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__size_of_adc 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__end_of_spin_left 17CE 0 CODE 0 text9 dist/default/debug\Robot.debug.obj
-__end_of_set_motor_speed 1200 0 CODE 0 text10 dist/default/debug\Robot.debug.obj
-set_motor_speed@speed_modifier 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-PORtask@count1 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-PORtask@count2 18 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-OpenUSART@config 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__size_of_spin_left 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__initialization 1976 0 CODE 0 cinit dist/default/debug\Robot.debug.obj
-_PORtask 1200 0 CODE 0 text21 dist/default/debug\Robot.debug.obj
-_WDTtask 18E0 0 CODE 0 text18 dist/default/debug\Robot.debug.obj
-_OpenADC 149A 0 CODE 0 text36 dist/default/debug\Robot.debug.obj
-__end_of_check_sensors 1144 0 CODE 0 text37 dist/default/debug\Robot.debug.obj
-_T2CONbits FCA 0 ABS 0 - dist/default/debug\Robot.debug.obj
-__Hfardata 0 0 FARRAM 0 fardata dist/default/debug\Robot.debug.obj
-OpenUSART@spbrg F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-__Hsmallconst 1080 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
-SetDCPWM2@DCycle 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
-_openPORTA 19DA 0 CODE 0 text28 dist/default/debug\Robot.debug.obj
-_openPORTB 19D4 0 CODE 0 text27 dist/default/debug\Robot.debug.obj
-_openPORTD 19E0 0 CODE 0 text46 dist/default/debug\Robot.debug.obj
-_openPORTE 19C8 0 CODE 0 text24 dist/default/debug\Robot.debug.obj
-__Lifardata 0 0 CODE 0 ifardata dist/default/debug\Robot.debug.obj
-__end_of_SetChanADC 1962 0 CODE 0 text39 dist/default/debug\Robot.debug.obj
-__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Robot.debug.obj
-__Hintcode 16 0 CODE 0 intcode dist/default/debug\Robot.debug.obj
-_HLVDCONbits FD2 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_set_osc_32MHz 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__pintcode_body 1362 0 CODE 0 intcode_body dist/default/debug\Robot.debug.obj
+__end_of_BORtask 18D8 0 CODE 0 text22 dist/default/debug\Robot.debug.obj
+PORtask@count1 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+intlevel0 0 0 CODE 0 text C:\Users\Student\AppData\Local\Temp\s3t8.obj
+intlevel1 0 0 CODE 0 text C:\Users\Student\AppData\Local\Temp\s3t8.obj
+_motor_control 160E 0 CODE 0 text2 dist/default/debug\Robot.debug.obj
+intlevel2 0 0 CODE 0 text C:\Users\Student\AppData\Local\Temp\s3t8.obj
+intlevel3 0 0 CODE 0 text C:\Users\Student\AppData\Local\Temp\s3t8.obj
+gtrap@count 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Robot.debug.obj
+__end_ofset_motor_speed@motor_speeds 100F 0 SMALLCONST 0 smallconst dist/default/debug\Robot.debug.obj
+__end_of_SetDCPWM1 16BE 0 CODE 0 text31 dist/default/debug\Robot.debug.obj
+__end_of_SetDCPWM2 1684 0 CODE 0 text30 dist/default/debug\Robot.debug.obj
+__end_of_reset_codes 15CE 0 CODE 0 text14 dist/default/debug\Robot.debug.obj
+__CFG_WDTPS$8 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+start_initialization 19D8 0 CODE 0 cinit dist/default/debug\Robot.debug.obj
+_lvd_flag_set 1A3C 0 CODE 0 text11 dist/default/debug\Robot.debug.obj
+__end_of_openLVD 1984 0 CODE 0 text29 dist/default/debug\Robot.debug.obj
+__end_of_WDTtask 1950 0 CODE 0 text18 dist/default/debug\Robot.debug.obj
+__end_of_set_motor_speed 1154 0 CODE 0 text10 dist/default/debug\Robot.debug.obj
+__size_of_set_leds 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_motors_brake_all 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_check_sensors 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__size_of_ReadADC 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_isWDTTO 19B0 0 CODE 0 text15 dist/default/debug\Robot.debug.obj
+__initialization 19D8 0 CODE 0 cinit dist/default/debug\Robot.debug.obj
+_set_motor_speed 1080 0 CODE 0 text10 dist/default/debug\Robot.debug.obj
+__activetblptr 3 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_PORtask 12CA 0 CODE 0 text21 dist/default/debug\Robot.debug.obj
+_follow_simple_curves 16F6 0 CODE 0 text4 dist/default/debug\Robot.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\Robot.debug.obj
+__end_of_turn_right 1790 0 CODE 0 text5 dist/default/debug\Robot.debug.obj
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
-# Each line is a record a particular split, where the parent psect is on
+# Each line is a record a particular split, where the parent psect in on
 # the left and the child on the right.  Note that a child psect is always
 # split form the top of the parent psect. All splits from a given parent
 # are listed in the order in which they occurred.
@@ -1115,10 +1113,7 @@ _HLVDCONbits FD2 0 ABS 0 - dist/default/debug\Robot.debug.obj
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-idloc 0 200000 200000 8 1
-text37 0 1080 1080 970 1
-cstackCOMRAM 1 1 1 21 1
-reset_vec 0 0 0 4 1
-intcode 0 8 8 12 1
+reset_vec 0 0 0 16 1
 smallconst 0 1000 1000 80 1
-config 0 300000 300000 E 1
+cstackCOMRAM 1 1 1 24 1
+text10 0 1080 1080 9C6 1
